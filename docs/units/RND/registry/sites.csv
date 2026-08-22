@@ -1,0 +1,28 @@
+id,name,url,hq,type,audience,one_liner,identity_source,observed_at,observe_status
+G01,Alibaba.com,https://www.alibaba.com/,Hangzhou CN,horizontal-global,buyer+supplier,Largest open B2B marketplace for wholesale sourcing,homepage-title-2026-08-22,2026-08-22T12:00Z,opened
+G02,Made-in-China.com,https://www.made-in-china.com/,Nanjing CN,horizontal-regional-asia,buyer+supplier,China industrial B2B marketplace with audited-supplier program,salehoo-alt-list-2026,2026-08-22T12:00Z,secondary
+G03,Global Sources,https://www.globalsources.com/,HK,horizontal-regional-asia,buyer+supplier,Marketplace plus trade shows for Asian manufacturers,salehoo-alt-list-2026,2026-08-22T12:00Z,secondary
+G04,IndiaMART,https://www.indiamart.com/,Noida IN,horizontal-regional-india,buyer+supplier,Largest India B2B portal for manufacturers and SMEs,globpulse-india-2026,2026-08-22T12:00Z,secondary
+G05,TradeIndia,https://www.tradeindia.com/,IN,horizontal-regional-india,buyer+supplier,Indian industrial and manufacturing directory/marketplace,globpulse-india-2026,2026-08-22T12:00Z,secondary
+G06,TradeKey,https://www.tradekey.com/,Riyadh SA,horizontal-global,buyer+supplier,Global RFQ and supplier matching marketplace,amzscout-tradekey-2026,2026-08-22T12:00Z,secondary
+G07,ExportHub,https://www.exporthub.com/,US,horizontal-global,buyer+supplier,Global sourcing directory with country microsites including Iran,exporthub-iran-page,2026-08-22T12:00Z,opened-listing
+G08,EC21,https://www.ec21.com/,Seoul KR,horizontal-global,buyer+supplier,Korea-origin global B2B marketplace since 1997,amzscout-ec21-2026,2026-08-22T12:00Z,secondary
+G09,1688,https://www.1688.com/,Hangzhou CN,horizontal-domestic-cn,buyer+supplier,Alibaba Group domestic China wholesale; mostly non-export,salehoo-alt-list-2026,2026-08-22T12:00Z,secondary
+G10,Amazon Business,https://www.amazon.com/business,US,procurement-horizontal,buyer-org,Enterprise procurement marketplace not factory-export first,clickpost-b2b-2026,2026-08-22T12:00Z,secondary
+G11,ThomasNet,https://www.thomasnet.com/,US,directory-industrial,buyer-industrial,North America industrial supplier directory,salehoo-alt-list-2026,2026-08-22T12:00Z,secondary
+G12,Faire,https://www.faire.com/,US,vertical-wholesale-retail,retailer+brand,Curated wholesale for independent retail brands,salehoo-alt-list-2026,2026-08-22T12:00Z,secondary
+G13,DHgate,https://www.dhgate.com/,CN,hybrid-low-moq,smb-buyer,Low-MOQ China marketplace closer to small wholesale,salehoo-alt-list-2026,2026-08-22T12:00Z,secondary
+G14,Europages,https://www.europages.com/,EU,directory-regional,buyer+supplier,European manufacturer directory,salehoo-alt-list-2026,2026-08-22T12:00Z,secondary
+G15,Kompass,https://www.kompass.com/,FR,directory-intel,sales-intel,B2B company intelligence and directory,vyaaparone-2026,2026-08-22T12:00Z,secondary
+G16,eWorldTrade,https://www.eworldtrade.com/,US,horizontal-global,buyer+supplier,Global B2B portal with Iran country section,eworldtrade-iran,2026-08-22T12:00Z,opened-listing
+G17,SAP Ariba,https://www.ariba.com/,US,procurement-enterprise,enterprise-buyer,Buyer-side procurement network not seller showcase,prior-rfp-benchmark,2026-08-22T12:00Z,secondary
+IR01,Made in Irani,https://madeinirani.com/,IR,iran-export-marketplace,foreign-buyer+iran-mfr,B2B shop connecting foreign buyers to Iranian factories,homepage-2026-08-22,2026-08-22T12:00Z,opened
+IR02,Made in Iran,https://madeiniran.com/,IR,iran-export-showcase,foreign-buyer+iran-mfr,Multilingual showcase RFQ platform for Iranian goods,about-us-page,2026-08-22T12:00Z,opened-about
+IR03,ExportHub Iran,https://www.exporthub.com/iran/,US/IR-listings,directory-country,buyer+iran-supplier,Country directory of Iranian companies on ExportHub,exporthub-iran,2026-08-22T12:00Z,opened-listing
+IR04,eWorldTrade Iran,https://www.eworldtrade.com/iran/,US/IR-listings,directory-country,buyer+iran-supplier,Iran microsite on eWorldTrade,eworldtrade-iran,2026-08-22T12:00Z,opened-listing
+IR05,B2BMAP Iran,https://b2bmap.com/iran,global-dir,directory-country,buyer+iran-supplier,Iran company and product listings on B2BMAP,b2bmap-iran,2026-08-22T12:00Z,opened-listing
+IR06,SJN Iran,https://www.sjn.ir/,IR,directory-industrial,engineer+buyer,Moderated industrial/tech company directory,sjn-home,2026-08-22T12:00Z,secondary
+IR07,TPO Iran,https://www.tpo.ir/,IR,official-trade-promo,exporter+policy,Trade Promotion Organization official portal,secondary-tpo-guides,2026-08-22T12:00Z,fetch-failed-500
+IR08,ICCIMA,https://en.iccima.ir/,IR,official-chamber,member-exporter,Iran Chamber of Commerce international site,en.iccima.ir-useful-links,2026-08-22T12:00Z,opened-listing
+IR09,IXport,https://ixport.ir/en/,IR,export-info,exporter,Export regulation explainers and trade content,ixport-import-reg-2025,2026-08-22T12:00Z,opened-article
+IR10,NTSW,https://www.ntsw.ir/,IR,official-single-window,importer+exporter,National Trade Single Window — not a marketplace,ntsteam-guide,2026-08-22T12:00Z,secondary

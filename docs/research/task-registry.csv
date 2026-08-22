@@ -1,0 +1,45 @@
+id,workstream,owner,priority,depends_on,deliverable,acceptance
+RND-001,Rival registry,RND,P0,,sites.csv + scope report,All 7 competitor categories covered and duplicates resolved
+RND-002,Rival dossier template,RND,P0,RND-001,validated dossier template,Every dimension has evidence or observed-not-found
+RND-003,Rival deep dive Alibaba,RND,P0,RND-001,site dossier + packages,Guest seller and buyer paths recorded
+RND-004,Rival deep dive Global Sources,RND,P0,RND-001,site dossier + packages,Same rubric and comparable evidence
+RND-005,Rival deep dive Made-in-China,RND,P0,RND-001,site dossier + packages,Same rubric and comparable evidence
+RND-006,Rival deep dive IndiaMART,RND,P1,RND-001,site dossier + packages,Regional model and limitations recorded
+RND-007,Rival deep dive TradeKey/EC21/ExportHub,RND,P1,RND-001,comparative dossier,Scope and confidence clearly separated
+RND-008,Analytical comparison,RND,P0,RND-003;RND-004;RND-005,competitor matrix + fundamentals,Claims trace to source and strategic implications
+RND-009,Cross-platform module inventory,RND,P0,RND-008,module/page/entity matrix,Modules mapped to actor and state
+RND-SELL-001,Seller walkthrough,RND+SUP,P0,RND-003;RND-005,seller service blueprint + state machine,All 16 stages and failure paths captured
+RND-BUY-001,Buyer walkthrough,RND+BUY,P0,RND-003;RND-005,buyer service blueprint + state machine,All 13 stages and failure paths captured
+TRD-001,Documentary cycle,TRADE,P0,,document lifecycle map,Issuer condition and order state for each document
+TRD-002,Country/category compliance matrix,TRADE,P0,RND-001,category x country matrix,Source and legal uncertainty recorded
+TRD-003,Incoterms and logistics,TRADE,P1,TRD-001,shipment state model,Legal responsibility and handoffs explicit
+TRD-004,Export/import stop rules,CMP+TRADE,P0,TRD-002,compliance gates,No workaround or evasion advice
+LEG-001,Platform legal role,LEG,P0,,legal position memo,Marketplace/agent role and liabilities explicit
+LEG-002,Terms and memberships,LEG,P0,LEG-001,supplier/buyer/platform terms drafts,Reviewed by qualified counsel required
+LEG-003,Trade contract pack,LEG,P0,LEG-001;TRD-001,PO PI NDA claim templates,Jurisdiction language dispute and force majeure covered
+LEG-004,Privacy/IP/data,LEG,P1,LEG-001,data/privacy/IP matrix,Retention consent and cross-border issues mapped
+CMP-001,KYB/KYC screening,CMP,P0,,screening policy + red flags,Buyer supplier bank and logistics checks defined
+CMP-002,Sanctions/export controls,CMP,P0,TRD-002,restricted party/product policy,Stop/escalate behavior defined
+FIN-001,Payment method comparison,FIN,P0,,payment matrix,TT LC escrow CAD DP DA cards guarantees compared
+FIN-002,Funds state machine,FIN,P0,FIN-001;LEG-003,hold-release-refund flow,Inspection delivery dispute conditions mapped
+FIN-003,Fees FX reconciliation,FIN,P1,FIN-001,unit economics + ledger events,Fees FX chargeback tax and reconciliation covered
+INS-001,Cargo/credit insurance,INS,P1,TRD-003;FIN-002,insurance matrix,Exclusions beneficiary and claim process recorded
+INSP-001,Inspection workflow,INSP,P1,RND-SELL-001;RND-BUY-001,inspection module spec,Sampling stages report and payment linkage defined
+SUP-001,Supplier onboarding,SUP,P0,RND-SELL-001;CMP-001,verification funnel + scorecard,Documents tiers capacity quality response captured
+BUY-001,Buyer acquisition and KYB,BUY,P1,RND-BUY-001;CMP-001,buyer funnel and persona pack,Target segments channels and verification captured
+TNS-001,Trust fraud dispute,TNS,P0,SUP-001;FIN-002,trust policy + taxonomy,Badges ratings moderation and escalation testable
+CS-001,Trade support,CS,P1,RND-SELL-001;RND-BUY-001,SLA and ticket routing,Language escalation and concierge paths defined
+LOG-001,Freight and tracking,LOG,P1,TRD-003,logistics partner/module brief,Quote tracking packing and Incoterm handoff defined
+CAT-001,Priority categories,CAT,P0,RND-008,category rules,Product specs and export feasibility per category
+PIM-001,Product information model,PIM,P0,CAT-001;RND-009,PIM/data dictionary,Variants certificates HS and versioning supported
+LOC-001,Localization,LOC,P1,RND-BUY-001,locale/number/currency rules,RTL LTR language and commercial terms covered
+SEO-001,International SEO,SEO,P1,RND-009;LOC-001,information architecture + SEO brief,URL indexability schema and multilingual content defined
+PM-001,PRD and MVP,PM,P0,RND-SELL-001;RND-BUY-001;FIN-002;LEG-003,PRD + prioritised backlog,Every item has evidence owner risk and acceptance
+UX-001,UX and accessibility,UX,P1,PM-001,task flows + test plan,Desktop mobile RTL and accessibility tested
+DES-001,Design system,DES,P1,UX-001;PM-001,wireframes + component rules,States errors documents and trust cues covered
+ENG-001,Architecture,ENG,P0,PM-001;PIM-001;FIN-002,architecture decision record,Identity catalog RFQ order payment docs messaging dispute admin audit mapped
+DATA-001,Analytics and governance,DATA,P1,PM-001;ENG-001,event taxonomy + KPI dictionary,Funnels SLA trust and financial events defined
+SEC-001,Security threat model,SEC,P0,ENG-001;CMP-001,threat model + controls,Roles secrets abuse audit and incident response covered
+GOV-001,Operating governance,GOV,P1,LEG-004;SEC-001,policy/incident/vendor playbook,Owners escalation continuity and audit defined
+QA-001,Quality loop,QA,P0,,rubric + review log,Critical defects zero and sampled error below 1 percent
+SYN-001,Research synthesis,MGT+PM,P0,QA-001;RND-009;TRD-004;FIN-003;LEG-004,decision log + handoff pack,Contradictions resolved and all open assumptions visible
