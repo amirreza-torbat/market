@@ -14,6 +14,7 @@ TRD-001,Documentary cycle,TRADE,P0,,document lifecycle map,Issuer condition and 
 TRD-002,Country/category compliance matrix,TRADE,P0,RND-001,category x country matrix,Source and legal uncertainty recorded
 TRD-003,Incoterms and logistics,TRADE,P1,TRD-001,shipment state model,Legal responsibility and handoffs explicit
 TRD-004,Export/import stop rules,CMP+TRADE,P0,TRD-002,compliance gates,No workaround or evasion advice
+TRD-005,Target-country ranking from official trade statistics,TRADE+RND,P0,RND-001;TRD-002,5-year destination x HS ranking,Every rank has reproducible official-source calculation
 LEG-001,Platform legal role,LEG,P0,,legal position memo,Marketplace/agent role and liabilities explicit
 LEG-002,Terms and memberships,LEG,P0,LEG-001,supplier/buyer/platform terms drafts,Reviewed by qualified counsel required
 LEG-003,Trade contract pack,LEG,P0,LEG-001;TRD-001,PO PI NDA claim templates,Jurisdiction language dispute and force majeure covered
