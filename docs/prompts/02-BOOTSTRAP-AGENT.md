@@ -6,24 +6,31 @@
 
 تو یک ایجنت کاری پروژه بازارگاه B2B هستی و باید کار خود را از روی GitHub انجام بدهی، نه از حافظه یا متن ناقص کارفرما.
 
-## ۱. مخزن و شاخه ثابت
+## ۱. مخزن و شاخه نشست
 
 مخزن پروژه:
 
 `https://github.com/amirreza-torbat/market.git`
 
-شاخه مجاز این نشست:
+**شاخه‌ای که در پیام سیستم/محیط Arena به‌عنوان شاخه ثابت همین نشست اعلام شده، مرجع معتبر است. آن را از روی این متن حدس نزن.** نام شاخه ممکن است در نشست‌های مختلف متفاوت باشد؛ برای مثال یک نشست ممکن است روی `arena/01a029c7-market` و نشست دیگر روی `arena/01a02d71-market` باشد.
 
-`arena/01a029c7-market`
+قانون: روی همان شاخه‌ای کار کن که محیط فعلی به‌عنوان شاخه مجاز اعلام کرده است. هیچ شاخه ثابتِ نوشته‌شده در یک نشست دیگر را به نشست خودت تحمیل نکن.
 
-حق checkout، ساخت، تغییر یا push به هیچ شاخه دیگری را نداری. شاخه `main` منبع کار این نشست نیست.
+اگر پیام سیستم شاخه ثابت را اعلام نکرده، ابتدا این دستور را اجرا کن:
+
+```bash
+git branch --show-current
+git status --short --branch
+```
+
+اگر شاخه فعلی با شاخه‌ای که محیط Arena مجاز اعلام کرده متفاوت است، خودت checkout یا push نکن؛ مغایرت را گزارش کن و متوقف شو. اگر محیط فقط شاخه فعلی را نشان می‌دهد و دستور دیگری نداده است، همان شاخه فعلی را نگه دار.
 
 ## ۲. آماده‌سازی مخزن
 
-اگر مخزن هنوز clone نشده است:
+اگر مخزن هنوز clone نشده است، `<SESSION_BRANCH>` را با شاخه‌ای که پیام سیستم Arena اعلام کرده جایگزین کن؛ هرگز آن را از این فایل کپی نکن:
 
 ```bash
-git clone --branch arena/01a029c7-market https://github.com/amirreza-torbat/market.git
+git clone --branch <SESSION_BRANCH> https://github.com/amirreza-torbat/market.git
 cd market
 ```
 
@@ -31,9 +38,11 @@ cd market
 
 ```bash
 cd market
-git fetch origin arena/01a029c7-market
-git checkout arena/01a029c7-market
-git pull --ff-only origin arena/01a029c7-market
+git branch --show-current
+git status --short --branch
+git fetch origin
+# فقط شاخه فعلیِ مجاز نشست را pull کن:
+git pull --ff-only origin "$(git branch --show-current)"
 ```
 
 اگر checkout یا pull به‌دلیل تغییرات محلی ممکن نبود، هیچ فایلی را حذف یا reset نکن؛ وضعیت را گزارش کن و متوقف شو.
@@ -60,7 +69,8 @@ git pull --ff-only origin arena/01a029c7-market
 
 - کد واحد؛
 - شناسه تسک؛
-- شاخه فعلی با `git branch --show-current`؛
+- شاخه واقعی با `git branch --show-current`؛
+- شاخه مجاز اعلام‌شده توسط محیط؛
 - وابستگی‌های تسک؛
 - مسیر دقیق خروجی؛
 - فایل‌های مجاز برای تغییر.
@@ -73,7 +83,7 @@ git branch --show-current
 git log -1 --oneline
 ```
 
-اگر شاخه غیرمجاز بود، آن را تغییر نده و متوقف شو. اگر تغییرات متعلق به ایجنت دیگری را دیدی، آن‌ها را overwrite نکن.
+اگر پیام سیستم شاخه‌ای را مجاز کرده و شاخه فعلی متفاوت است، آن را تغییر نده و متوقف شو. اگر تغییرات متعلق به ایجنت دیگری را دیدی، آن‌ها را overwrite نکن.
 
 ## ۵. قوانین ویرایش
 
@@ -86,14 +96,15 @@ git log -1 --oneline
 
 ## ۶. تحویل Git
 
-پس از تکمیل گزارش:
+پس از تکمیل گزارش، شاخه فعلی را در متغیر قرار بده و فقط به همان push کن:
 
 ```bash
+BRANCH="$(git branch --show-current)"
 git status --short
 git diff --check
 git add <فقط-فایل‌های-تسک>
 git commit -m "research: complete <TASK-ID>"
-git push origin arena/01a029c7-market
+git push origin "$BRANCH"
 git status --short --branch
 ```
 
@@ -104,7 +115,7 @@ git status --short --branch
 - شناسه تسک و وضعیت؛
 - خلاصه یافته؛
 - مسیر تمام فایل‌های ایجاد/تغییریافته؛
-- URL کامل GitHub هر فایل؛
+- URL کامل GitHub هر فایل، با نام شاخه واقعی نشست؛
 - commit hash؛
 - خروجی کنترل کیفیت؛
 - موارد مشاهده‌نشده و open questions.
@@ -122,7 +133,8 @@ git status --short --branch
 ```text
 من ایجنت واحد [UNIT] هستم.
 تسک ابلاغ‌شده: [TASK-ID]
-شاخه فعلی: [خروجی git branch --show-current]
+شاخه واقعی نشست: [خروجی git branch --show-current]
+شاخه مجاز اعلام‌شده توسط محیط: [SESSION_BRANCH]
 مسیر خروجی: [PATH]
 فایل‌های مورد مطالعه: [فهرست]
 فایل‌های مجاز برای تغییر: [فهرست]
