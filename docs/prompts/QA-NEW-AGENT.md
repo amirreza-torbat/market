@@ -30,9 +30,19 @@
 
 ## ۲. مخزن و شاخه
 
-مخزن:
+مخزن اجباری پروژه:
 
 `https://github.com/amirreza-torbat/market.git`
+
+پیش از خواندن یا ویرایش هر فایل، origin را کنترل کن:
+
+```bash
+git remote get-url origin
+git branch --show-current
+git status --short --branch
+```
+
+اگر URL origin شامل `amirreza-torbat/market` نیست، این نشست روی مخزن اشتباه است. در این حالت **هیچ فایل پروژه‌ای را ایجاد، ویرایش، commit یا push نکن**؛ فقط خطای `C-REPOSITORY` را گزارش کن و متوقف شو. مخزن `amirreza-torbat/iranian-b2b` منبع این پروژه نیست.
 
 شاخه QA را از پیام سیستم یا محیط Arena همین نشست تشخیص بده. شاخه را از روی تعداد فایل، کامل‌تر بودن یا جدیدتر بودن انتخاب نکن.
 
