@@ -1,0 +1,14 @@
+method_id,method_en,weighted_score_0_100,buyer_index_0_100,seller_index_0_100,platform_index_0_100,rank_weighted_score_0_100,rank_buyer_index_0_100,rank_seller_index_0_100,rank_platform_index_0_100
+M01,TT Advance Payment (Telegraphic Transfer),74.0,57.0,84.0,67.0,1,4,1,4
+M05,Platform Escrow (Bank Amanat / Third-party),64.0,69.0,59.0,68.0,2,1,9,2
+M11,Bank Guarantee (URDG 758 Demand / Standby ISP98),63.0,53.0,69.0,62.0,3,9,2,6
+M02,LC Sight Unconfirmed,62.0,53.0,66.0,59.0,4,8,3,8
+M06,CAD Cash Against Documents,62.0,58.0,65.0,66.0,5,3,4,5
+M10,Staged / Milestone Payment (Platform),62.0,65.0,57.0,68.0,6,2,10,3
+M12,Export Credit Insurance (Iran EGF),61.0,55.0,65.0,72.0,7,7,5,1
+M03,LC with Confirmation,60.0,45.0,62.0,50.0,8,12,6,10
+M07,DP Documents against Payment,59.0,55.0,61.0,61.0,9,6,7,7
+M13,Lawful Third-Country Settlement Corridor,56.0,51.0,60.0,55.0,10,11,8,9
+M09,Card & Gateway (Intl Visa/MC + Stripe/PayPal; Domestic Shaparak PSP; Mir/Shetab),52.0,57.0,52.0,41.0,11,5,11,13
+M04,Deferred Payment (Usance LC / Open Account),43.0,42.0,44.0,47.0,12,13,12,12
+M08,DA Documents against Acceptance,43.0,52.0,40.0,50.0,13,10,13,11
