@@ -1,0 +1,25 @@
+document_id,document_type,issuer_class,requiredness_default,lifecycle_phase,order_state_gate,platform_control,source_ids
+D01,RFQ,party,transaction-dependent,inquiry,RFQ_OPEN,"required fields; identity; immutable version",S01;S02
+D02,Quotation,party,transaction-dependent,commercial offer,QUOTATION_SENT,"validity; currency; named place; version",S01;S02;S03
+D03,Proforma invoice,party,transaction-dependent,pre-shipment commercial preparation,COMMERCIAL_ACCEPTANCE_PENDING,"type-safe PRO FORMA; link to RFQ/quote",S01;S02
+D04,Purchase order,party,transaction-dependent,buyer order,PO_RECEIVED,"buyer authority; acceptance; version diff",S03;S19
+D05,Sales contract,party,transaction-dependent,contracting,CONTRACT_ACTIVE,"signatory authority; governing law; Incoterms version",S03;S04
+D06,Commercial invoice,party,transaction-dependent,final commercial documentation,READY_TO_SHIP,"final-data gate; cross-document validator; revision audit",S01;S04
+D07,Packing list,party,transaction-dependent,packing,PACKED,"physical tally; package/weight reconciliation",S01;S04
+D08,Certificate of origin,authority,conditional,origin certification,DOCUMENTS_PENDING,"issuer verification; origin rule; shipment link",S06;S07;S21
+D09,Bill of lading,carrier,transport-dependent,carriage,IN_TRANSIT,"carrier authentication; received/on-board distinction; VGM",S01;S08;S09
+D10,Customs declaration,customs-or-agent,customs-dependent,customs clearance,CUSTOMS_FILING,"authorized declarant; acceptance message; MRN/audit link",S10;S11;S12;S13
+D11,Export or import permit,authority,conditional,compliance,COMPLIANCE_PENDING,"scope; end-use; validity; stop rule",S21
+D12,Phytosanitary certificate,authority,conditional,SPS certification,CERTIFICATES_PENDING,"NPPO issuer; certificate number; ePhyto acceptance",S14
+D13,Veterinary certificate,authority,conditional,SPS certification,CERTIFICATES_PENDING,"competent authority; model; lot; signature",S15
+D14,Health or sanitary certificate,authority,conditional,SPS certification,CERTIFICATES_PENDING,"destination rule; test; accepted issuer",S01;S21
+D15,Conformity declaration or test report,manufacturer-or-authority,conditional,technical compliance,COMPLIANCE_PENDING,"standard/version; accreditation; model identity",S21
+D16,Inspection certificate,inspector,contract-dependent,inspection,INSPECTION_PENDING,"scope; sample; chain of custody; report",S20;S21
+D17,Fumigation or treatment certificate,treatment-provider,conditional,treatment,CERTIFICATES_PENDING,"package/mark/date linkage",S21
+D18,Halal certificate,authority-or-certifier,conditional,product certification,CERTIFICATES_PENDING,"destination-accepted certifier; lot/scope",S21
+D19,Insurance policy or certificate,insurer,contract-dependent,risk cover,INSURANCE_PENDING,"beneficiary; route; value; exclusion; notification",S04;S05
+D20,Delivery note or dispatch note,party-or-carrier,operational-dependent,physical handover,DELIVERY_PENDING,"receiver authority; timestamp; tally",S16
+D21,POD or signed receipt,carrier,operational-dependent,delivery evidence,DELIVERED,"authenticated signature; time/location; exceptions",S17
+D22,Goods receipt or release order,warehouse-or-carrier,operational-dependent,arrival/release,ARRIVED,"customs release; document entitlement; lot link",S01;S08;S16;S17
+D23,Payment or transport claim,aggrieved-party-or-insurer,event-dependent,exception handling,CLAIM_OPEN,"deadline derived from contract/policy/law; append-only case",S03;S18;S19
+D24,Dispute case,aggrieved-party,event-dependent,formal dispute,DISPUTE_OPEN,"clause/forum; legal hold; restricted access",S03;S18
