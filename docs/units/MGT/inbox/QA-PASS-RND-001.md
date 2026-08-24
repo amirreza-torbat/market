@@ -42,7 +42,7 @@ This is a **quality-verification pass**, not a final approval of the registry fo
 - **Legal entity verification:** Several C2/C5/C6 operators marked `brand/operator; legal entity not fully verified`; report does not claim verification (§2.2 / §6.2 / §7.1).
 - **Language / locale:** Some marked `advertised` / `inferred`; not full translation verification (§9).
 - **Activity-log contradiction:** Previous log conflicting; resolved by version independence (§9 / §14 Q3).
-- **Reference workspace:** 11/14 required QA reference files missing locally — environment, not RND defect (§3 open question).
+- **Reference workspace / `?? docs/`:** Before work, workspace contained only `README.md` + `.git`; `?? docs/` was created by this session. 11 of 14 required QA reference files (`docs/STATUS.md`, `docs/prompts/01-AGENT-IDENTITY.md`, `docs/prompts/identities/QA.md`, `docs/prompts/00-GLOBAL-PROTOCOL.md`, `docs/research/MASTER-TASK-PLAN.md`, `docs/research/task-registry.csv`, `docs/prompts/tasks/QA-001.md`, `docs/units/QA/JOB.md`, `docs/units/QA/RUBRIC.md`, `docs/units/QA/LOOP.md`, `docs/units/QA/templates/VERDICT.md`) were missing locally. They were NOT reconstructed. Canonical source for RND judgment: remote branch `arena/01a02d71-market`, commit `501abf81566c90e4a37d7e29ffb1bcb1a89e1f83` (files read via `git show FETCH_HEAD:`). Canonical QA instruction source: fetched prompt file (`QA-NEW-AGENT.md`) at URL `https://github.com/amirreza-torbat/market/blob/arena/01a029c7-market/docs/prompts/QA-NEW-AGENT.md`. Missing reference files do not affect RND-001 integrity because RND evidence is self-contained.
 
 ---
 
