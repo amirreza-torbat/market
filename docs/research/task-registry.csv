@@ -1,0 +1,5 @@
+id,workstream,owner,priority,depends_on,deliverable,acceptance,status,status_basis,updated_at
+TRD-001,Documentary cycle,TRADE,P0,,document lifecycle map,Issuer condition and order state for each document,qa-pass,QA-PASS-TRD-001 registered by MGT,2026-08-24 UTC
+TRD-002,Country/category compliance matrix,TRADE/CUS,P0,TRD-001,category x country matrix,Source and legal uncertainty recorded,issued-controlled,Formal MGT brief issued; execution not started,2026-08-24 UTC
+TRD-003,Incoterms and logistics,TRADE,P1,TRD-001,shipment state model,Legal responsibility and handoffs explicit,blocked,Explicit MGT queue lock; not issued in this step,2026-08-24 UTC
+RND-003,Rival deep dive Alibaba,RND,P0,RND-001,site dossier and packages,Guest seller and buyer paths recorded,blocked,Explicit MGT queue lock; not issued in this step,2026-08-24 UTC
