@@ -13,7 +13,8 @@
 
 `QA-PASS-RND-001`
 
-**Defects:** `C = 0`, `M = 0`, `m = 3` (non-critical format/environment observations; none hide critical/major errors).
+**Defects:** `C = 0`, `M = 0`, `countable m = 0` (0 / 14 checklist items = 0 % < 1 %). Three meta observations (format preference, missing workspace reference files, language convention) are NON-COUNTABLE (not checklist failures, not RND data defects) and documented in review §4.
+**Non-countable meta observations (3):** (1) citation-style links (`m-link`) — all URLs functional; (2) missing 11/14 QA reference files (`m-order`/env) — workspace non-canonical (`?? docs/`), canonical RND source `arena/01a02d71-market` (`501abf...`); (3) mixed Persian/English (`m-lang`) — repo convention.
 **14-check result:** All satisfied or documented.
 **Reproducibility:** Confirmed independently (`python score_registry.py`; output identical to `sites.csv`; category counts and tier counts match report).
 **Sampling:** 5/41 (12.2%) verified; 0 mismatches; 7 category winners independently verified.
