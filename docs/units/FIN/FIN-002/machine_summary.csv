@@ -1,0 +1,14 @@
+state_id,state_fa,is_terminal,outgoing_count,outgoing_to,compliance_gates,ledger_events
+AUTHORIZE,مجوز پرداخت,0,2,HOLD | CANCELLED,"G1,G2,G3,G4","L01,L02"
+HOLD,نگهداشت وجه (حساب امانی),0,2,VERIFY | EXPIRED,"G5,G6,G7",L02
+VERIFY,احراز و سندبازار,0,2,INSPECT | CANCELLED,"G1,G2,G3,G4,G8,G9,G10",L03
+INSPECT,بازرسی (پیش‌تولید/حین‌تولید/پیش‌حمل),0,3,SHIP | REFUND | DISPUTE,"G11,G12","L04,L11"
+SHIP,حمل (خروج از گمرک مبدأ),0,3,DELIVERY | DISPUTE | REFUND,"G13,G14,G15","L05,L12"
+DELIVERY,تحویل (ورود/رسید مقصد),0,2,ACCEPT | DISPUTE,"G16,G17",L06
+ACCEPT,پذیرش (یا پذیرش ضمنی),0,2,RELEASE | DISPUTE,G18,L07
+RELEASE,آزادسازی به فروشنده,1,0,,"G1,G18,G19,G20","L08,L10,L12"
+REFUND,بازگشت وجه به خریدار,1,0,,"G21,G22","L09,L13"
+DISPUTE,اختلاف (قفل وجه),0,3,RESOLUTION | RELEASE | REFUND,G23,"L14,L15"
+RESOLUTION,حل نهایی (میانجی/داوری),1,2,RELEASE | REFUND,"G24,G25","L16,L17,L18"
+CANCELLED,لغو (بستن بدون آزادسازی),0,1,REFUND,G26,L19
+EXPIRED,انقضا (timeout),0,1,REFUND,G26,L19

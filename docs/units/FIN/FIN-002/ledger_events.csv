@@ -1,0 +1,20 @@
+event_id,state,side,debit_account,credit_account,amount_rule,trigger,owner,note
+L01,AUTHORIZE,info,—,—,مبلغ سفارش (ارز قرارداد),ثبت درخواست پرداخت,FIN-003,ثبت، بدون جابه‌جایی
+L02,HOLD,debit/credit,escrow_pool (بانک امانی),platform_liability (escrow),مبلغ قفل‌شده = مبلغ سفارش,قفل وجوه,FIN-003,تعادل دوطرفه
+L03,VERIFY,info,—,—,—,نتیجه سندبازار,FIN-003,ثبت پرونده
+L04,INSPECT,info,—,—,—,نتیجه بازرسی,FIN-003,ثبت گزارش
+L05,SHIP,info,—,—,—,اسناد حمل,FIN-003,ثبت بسته اسناد
+L06,DELIVERY,info,—,—,—,POD/اظهار ورود,FIN-003,ثبت تحویل
+L07,ACCEPT,info,—,—,—,پذیرش/ضمنی,FIN-003,ثبت پذیرش
+L08,RELEASE,debit/credit,platform_liability (escrow),seller_receivable / payout,مبلغ خالص = مبلغ سفارش − کارمزدها,دستور امین,FIN-003,آزادسازی
+L09,REFUND,debit/credit,platform_liability (escrow),buyer_refund_pool,مبلغ بازگشت (کل/جزئی),دستور بازگشت,FIN-003,بازگشت
+L10,RELEASE,fee,seller_receivable,platform_revenue,کارمزد پلتفرم (قرارداد),تسویه,FIN-003,کارمزد
+L11,INSPECT,fee,escrow_pool,inspector_receivable,هزینه بازرسی (در صورت),گزارش بازرسی,FIN-003,هزینه بازرسی
+L12,SHIP,fee,escrow_pool,insurer_receivable,حق بیمه حمل (در صورت),صدور بیمه‌نامه,FIN-003,حق بیمه
+L13,REFUND,fee,—,—,کارمزد بازگشت (طبق قرارداد؛ خطای پلتفرم = صفر),بازگشت,FIN-003,پیشنهاد: بدون کارمزد برای کدهای پلتفرمی
+L14,DISPUTE,info,—,—,مبلغ در اختلاف,ورود اختلاف,FIN-003,قفل اختلاف
+L15,DISPUTE,reserve,escrow_pool,dispute_reserve,سهم در اختلاف (در صورت جزئی),قفل اختلاف,FIN-003,رزرو
+L16,RESOLUTION,info,—,—,محاسبه حکم,حکم,FIN-003,ثبت حکم
+L17,RESOLUTION,debit/credit,dispute_reserve,seller_receivable,سهم فروشنده طبق حکم,تسویه داوری,FIN-003,بخش فروشنده
+L18,RESOLUTION,debit/credit,dispute_reserve,buyer_refund_pool,سهم خریدار طبق حکم,تسویه داوری,FIN-003,بخش خریدار
+L19,CANCELLED/EXPIRED,info,—,—,—,بستن/انقضا,FIN-003,ثبت خاتمه

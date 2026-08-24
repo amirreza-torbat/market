@@ -1,0 +1,27 @@
+gate_id,type,source_ref,applies_to,gate_behavior,legal_dependency,note
+G1,sanctions,"OFAC SDN / EU 267/2012 Annexes؛ FIN-001 S5,S7",ALL (هر تراکنش),بلوک در صورت تطبیق؛ هیچ‌گونه معامله با طرف مسدود,LEG/CMP-001,سندبازار در ورود و آزادسازی
+G2,sanctions,تعلیق تجارت/مبادلات مالی امارات با ایران — TRD-006,"AUTHORIZE,VERIFY,SHIP,DELIVERY",مقصد=امارات → مسدود مطلق؛ بدون استثنا تا ابلاغ رسمی,LEG/CMP؛ TRD-006,ثبت به‌عنوان constraint؛ هیچ مسیر جایگزین ممنوع است
+G3,prohibited,FIN-001 رجیستری PR-01..PR-07,ALL,روش مطابق PR → غیرقابل انتخاب/بلوک,CMP/LEG,رجیستری prohibited به‌عنوان گیت
+G4,prohibited,ITSR §560.203 (ممنوعیت دور زدن)؛ EU 267/2012,ALL,هر الگوی «نشان‌سازی مجدد/پنهان‌سازی» → بلوک + گزارش,LEG/CMP,عدم طراحی هر مسیر گریز
+G5,regulatory,دستورالعمل حساب امانی CBI (مصوب ۱۶/۰۶/۱۴۰۴),"HOLD,RELEASE,REFUND",فقط با تأیید کتبی LEG و CMP (مسدودکننده),LEG؛ دستورالعمل امانی,مدل نگهداشت بدون تأیید = غیرقابل فعال‌سازی
+G6,regulatory,بانک نگهدارنده غیرمسدود,HOLD,بانک مسدود → بلوک؛ هیچ‌جاگزینی غیرمجاز,CMP,بانک حساب امانی سندبازاری
+G7,regulatory,ماده ۱۱ (AML/CFT) و ماده ۱۵ (هویت پرداخت‌کننده),"HOLD,REFUND",عدم تطبیق هویت → بلوک/بازگشت,LEG,قابلیت ردیابی الزامی
+G8,regulatory,CMP-002 (کالای حساس/دوکاربرده),"VERIFY,SHIP",کالای مشمول بدون مجوز → بلوک,CMP,کنترل صادرات
+G9,regulatory,کشور ترانزیت مجاز (سندبازاری),SHIP,ترانزیت مسدود → بلوک/توقف,CMP,فورواردر سندبازاری
+G10,regulatory,EU 267/2012 Annex (IRISL و حمل‌کننده‌های مسدود),SHIP,حمل‌کننده مسدود → بلوک,CMP/LEG,عدم استفاده از ناوگان مسدود
+G11,product,INSP-001 (بازرس تأییدشده),INSPECT,بازرس غیرتأیید → بلوک,INSP/LEG,قالب گزارش استاندارد
+G12,product,انطباق مقصد (ESMA/MoIAT/Montaji برای مقاصد مشمول),INSPECT,نداشتن انطباق → بلوک (برای مقاصد غیرمعلق مجاز),TRADE/LEG,مطابق TRD-006؛ امارات فعلاً مسدود
+G13,product,تطبیق اسناد حمل (فاکتور/پکینگ/بارنامه) — TRD-003,SHIP,مغایرت اسناد → بلوک/ارجاع,TRADE,چک‌لیست پیش از ارسال
+G14,regulatory,گمرک مبدأ (اظهار/کوتاژ),SHIP,اظهار ناقص → بلوک,TRADE,کوتاژ برای رفع تعهد ارزی
+G15,sanctions,بازبینی مسیر/حمل‌کننده در لحظه حمل (تکمیل G9/G10),SHIP,تغییر/توقف مسیر → بلوک,CMP,کنترل لحظه‌ای
+G16,sanctions,مقصد مجاز (فهرست فعال؛ امارات مسدود),DELIVERY,مقصد غیرمجاز → بلوک,CMP/LEG,—
+G17,product,تطبیق Incoterms/اسناد مقصد,DELIVERY,مغایرت → بلوک/ارجاع,TRADE/LEG,—
+G18,sanctions,سندبازار مجدد پیش از پرداخت,"ACCEPT,RELEASE",هر تطبیق جدید → بلوک/بازگشت,CMP,قبل از هر پول
+G19,sanctions,مسیر پرداخت مجاز (نه بانک مسدود),RELEASE,—,CMP,—
+G20,regulatory,رفع تعهد ارزی (مصوبه ۱۳۹۷/۱۳۹۸؛ سامانه نیما/سنا),RELEASE,ثبت وضعیت رفع تعهد؛ عدم ثبت → هشدار/بلوک جزئی,CBI/TRADE,مشترک همه روش‌ها
+G21,regulatory,بازگشت به حساب مبدأ/ذی‌نفع اصلی,REFUND,تغییر ذی‌نفع → بلوک,CMP/LEG,—
+G22,sanctions,سندبازار حساب مقصد بازگشت,REFUND,—,CMP,—
+G23,legal,LEG-003/LEG-005 (شرط داوری),DISPUTE,بدون شرط داوری → پرونده ناقص,LEG,—
+G24,legal,اجرای حکم + سندبازار نهایی,RESOLUTION,—,LEG/CMP,—
+G25,prohibited,هیچ تسویه به مسیر غیرمجاز (PR),RESOLUTION,—,LEG/CMP,—
+G26,prohibited,رجیستری prohibited + تعلیق امارات (constraint),"CANCELLED,EXPIRED",بستن بدون workaround؛ وجه فقط از REFUND,CMP/LEG,ثبت constraint
