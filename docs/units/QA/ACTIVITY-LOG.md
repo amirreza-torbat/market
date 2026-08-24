@@ -12,3 +12,5 @@
 | 2026-08-24 | QA-001 / arena/01a03476-market | QA-001 | Final commit `qa: review RND-001`; push to `arena/01a03476-market`; stop (RND-002 not started) | Pending | Pending final verification |
 
 **Rules followed:** Only QA-001 executed. RND-001 judged only. RND-002 / RND-003 / TRD-004–006 not started. No RND file modified.
+
+| 2026-08-24 | QA-002 / arena/01a03476-market | QA-002 | Read QA-002.md + identities + protocol; read RND source (arena/01a02e1a-market 43fcea7); verify pre-condition QA-PASS-RND-001; evaluate template SITE-DOSSIER.md + brief RND-002.md; create review/outbox/notify; commit/push | Done | Verdict QA-PASS-RND-002; 0 countable defects; 2 non-countable meta; RND-003 NOT started; no RND files changed |
