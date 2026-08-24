@@ -6,3 +6,4 @@
 | --- | --- | --- | --- | --- | --- |
 | 2026-08-23 | RND | `RND-001` | ایجاد رجیستری 41 دامنه یکتا، گزارش scope، raw data و scoring script | in-qa | [outbox/RND-001.md](outbox/RND-001.md) |
 | 2026-08-24 | RND | `RND-002` | اعتبارسنجی قالب D00..D73 روی HKTDC با raw/processed CSV و validator | in-qa | [outbox/RND-002.md](outbox/RND-002.md) |
+| 2026-08-24 | RND | `RND-002` | اصلاح QA `m-DIM`: افزودن block دوازده‌فیلدی مستقل زیر هر D00..D73 | in-qa | [templates/SITE-DOSSIER.md](templates/SITE-DOSSIER.md) |
