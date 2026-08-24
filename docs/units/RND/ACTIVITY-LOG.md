@@ -5,3 +5,4 @@
 | تاریخ | ایجنت | تسک | رویداد | نتیجه | لینک |
 | --- | --- | --- | --- | --- | --- |
 | 2026-08-23 | RND | `RND-001` | ایجاد رجیستری 41 دامنه یکتا، گزارش scope، raw data و scoring script | in-qa | [outbox/RND-001.md](outbox/RND-001.md) |
+| 2026-08-24 | RND | `RND-002` | اعتبارسنجی قالب D00..D73 روی HKTDC با raw/processed CSV و validator | in-qa | [outbox/RND-002.md](outbox/RND-002.md) |
