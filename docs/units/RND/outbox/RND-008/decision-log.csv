@@ -1,0 +1,11 @@
+decision_id,topic,observed_basis,decision,rejected_option,reason,owner,next_gate,source_reports,confidence,status
+DEC-01,market model,all seven dossiers,separate lead/directory model from transaction marketplace,single universal competitor model,transaction depth differs materially,PM,QA + PRD,RND-003..007,high,proposed
+DEC-02,escrow terminology,Alibaba protection; MIC explicit escrow; EC21 claim; others gaps,use provider-specific labels until legal/fund-flow review,call all protection escrow,false equivalence,FIN/LEG,fund custody review,"RND-003,RND-005,RND-007",high,proposed
+DEC-03,trust,verification/badges vary,store issuer/scope/date/evidence per badge,single verified boolean,scope differs,TNS/CMP,trust taxonomy,RND-003..007,high,proposed
+DEC-04,RFQ,all platforms show RFQ/lead mechanisms,model RFQ separately from catalog search,merge into search,actors/states/quotas differ,PM/ENG,event schema,RND-003..007,high,proposed
+DEC-05,regionalization,seller plans/services vary by region,version capabilities/pricing by market,global static plan,evidence contradicts uniformity,PM/LOC,target-country decision,RND-003..007,high,proposed
+DEC-06,listing data,sample conflicts/mismatches observed,add provenance/conflict validation,trust supplier text as canonical,observed inconsistencies,PIM,multi-site sample,"RND-003,RND-004",high,proposed
+DEC-07,lead privacy,IndiaMART/lead directories expose contact access,consent + contact unlock audit ledger,unmetered contact export,abuse/privacy risk,DATA/SEC,privacy review,"RND-006,RND-007",high,proposed
+DEC-08,logistics,feature depth and deprecation differ,partner abstraction + capability flags,hardcode one provider flow,service transition/gaps,ENG/LOG,partner due diligence,RND-003..005,medium,proposed
+DEC-09,scoring,evidence coverage differs,do not rank product quality from coverage,rank by observed count,observation depth bias,MGT/QA,approved scoring rubric,RND-003..007,high,proposed
+DEC-10,next task,RND-009 depends on RND-008 QA,stop at in-qa,start module inventory now,explicit task boundary,RND,QA-PASS-RND-008,RND-008 prompt,high,locked

@@ -12,3 +12,4 @@
 | 2026-08-24 | RND | `RND-005` | تحلیل عمیق Made-in-China؛ D00..D73، مسیر مهمان خریدار/فروشنده و پنج handoff | in-qa | [outbox/RND-005.md](outbox/RND-005.md) |
 | 2026-08-24 | RND | `RND-006` | تحلیل عمیق IndiaMART؛ مدل منطقه‌ای، D00..D73 و مسیرهای buyer/seller | in-qa | [outbox/RND-006.md](outbox/RND-006.md) |
 | 2026-08-24 | RND | `RND-007` | تحلیل تطبیقی مستقل TradeKey، EC21 و ExportHub؛ 3×74 بعد | in-qa | [outbox/RND-007.md](outbox/RND-007.md) |
+| 2026-08-24 | RND | `RND-008` | synthesis هفت رقیب؛ matrix، fundamentals و decision log | in-qa | [outbox/RND-008.md](outbox/RND-008.md) |
