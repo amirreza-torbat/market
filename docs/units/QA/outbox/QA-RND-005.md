@@ -22,5 +22,5 @@
 `QA-PASS-RND-005`
 - `C = 0` / `M = 0` / `countable m = 0` (0 / 9 = 0% < 1%)
 - Source read-only (`arena/01a02d71-market` `bee39b...`); zero RND files edited
-- 74/74 dimensions; 12 fields per block; 60 observed / 14 not-found; 0 validation errors
+- 74/74 dimensions; 12 fields per block; 62 observed / 12 not-found; 0 validation errors
 - RND-006 / RND-005-follow-ons NOT started
