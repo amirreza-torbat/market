@@ -9,6 +9,6 @@
 ---
 - Verdict: QA-PASS-RND-005
 - Defects: C=0 M=0 countable m=0 (0/9 < 1%)
-- 74/74 dims; 62 observed / 14 not-found; 12 fields per block
+- 74/74 dims; 62 observed / 12 not-found; 12 fields per block
 - Source read-only; no RND files edited
 - Handoff to MGT/RND/QA documented
