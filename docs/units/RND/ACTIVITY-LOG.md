@@ -10,3 +10,4 @@
 | 2026-08-24 | RND | `RND-003` | تحلیل عمیق Alibaba؛ D00..D73، مسیر مهمان خریدار/فروشنده و پنج handoff | in-qa | [outbox/RND-003.md](outbox/RND-003.md) |
 | 2026-08-24 | RND | `RND-004` | تحلیل عمیق Global Sources؛ D00..D73، مسیر مهمان خریدار/فروشنده و پنج handoff | in-qa | [outbox/RND-004.md](outbox/RND-004.md) |
 | 2026-08-24 | RND | `RND-005` | تحلیل عمیق Made-in-China؛ D00..D73، مسیر مهمان خریدار/فروشنده و پنج handoff | in-qa | [outbox/RND-005.md](outbox/RND-005.md) |
+| 2026-08-24 | RND | `RND-006` | تحلیل عمیق IndiaMART؛ مدل منطقه‌ای، D00..D73 و مسیرهای buyer/seller | in-qa | [outbox/RND-006.md](outbox/RND-006.md) |
