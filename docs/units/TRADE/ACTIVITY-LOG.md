@@ -16,6 +16,7 @@
 | 2026-08-22 | حلقه | `TRD-005` | اجرا + NOTIFY | in-qa | outbox/TRD-005.md |
 | 2026-08-22 | MGT | `TRD-006` | ابلاغ پرونده امارات | issued | inbox/TRD-006.md |
 | 2026-08-22 | حلقه | `TRD-006` | اجرا + NOTIFY | in-qa | outbox/TRD-006.md |
+| 2026-09-27 | حلقه | `TRD-003` | اجرای مجدد چون خروجی قبلی مفقود بود + NOTIFY | in-qa | outbox/TRD-003.md |
 
 ## هنوز انجام نشده
 
