@@ -13,6 +13,7 @@
 | 2026-08-22 | MGT | `RND-002` | ابلاغ کالبدشکافی Alibaba | issued | [inbox/RND-002.md](inbox/RND-002.md) |
 | 2026-08-22 | حلقه | `RND-002` | اجرا + بسته‌ها | qa-pass | accepted/RND-002.md |
 | 2026-08-22 | MGT | `RND-003` | ابلاغ Made-in-China | issued | inbox/RND-003.md |
+| 2026-09-27 | حلقه | `RND-003` | اجرا + NOTIFY (توسط مجری نشست 2026-09-27 پس از سه خطای محیطی زیرعامل‌ها) | in-qa | outbox/RND-003.md |
 
 ## کارهای انجام‌نشده (صریح)
 

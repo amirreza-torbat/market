@@ -1,0 +1,39 @@
+dimension_code,observation,evidence_url,accessed_at,confidence,view_language
+D00,Operator = Focus Technology Co Ltd (焦点科技股份有限公司); copyright ©1996-2026; ticker 002315 (焦点科技) in site header,https://www.focuschina.com/,2026-09-27,watched-fact,zh+en
+D00,MIC (中国制造网 MIC国际站) listed as flagship B2B brand of the group,https://www.focuschina.com/,2026-09-27,watched-fact,zh
+D00,HQ Nanjing = inference from ICP filing 苏ICP备08107572号-8 and 焦点科技大厦 events,https://www.focuschina.com/,2026-09-27,inference,zh
+D01,Page title: Made-in-China.com - Manufacturers Suppliers & Products in China,https://www.made-in-china.com/,2026-09-27,watched-fact,en
+D02,20+ top-level categories visible on homepage nav,https://www.made-in-china.com/,2026-09-27,watched-fact,en
+D03,Supplier membership badges on product cards: Diamond Member / Gold Member,https://www.made-in-china.com/products-search/hot-china-products/Machinery.html,2026-09-27,watched-fact,en
+D03,Promo banner with date range Aug 07 2026 - Dec 31 2030 and Source Now CTA (paid placement),https://www.made-in-china.com/,2026-09-27,watched-fact,en
+D03,Membership pricing not observable; s.made-in-china.com 302->m then 303->www; member.made-in-china.com timeout,https://s.made-in-china.com/,2026-09-27,observed-not-found,en
+D13,Homepage = category tree + campaign banners + Hot Products lists,https://www.made-in-china.com/,2026-09-27,watched-fact,en
+D16,CTA labels: Source Now / Start Order / Send Inquiry / Favorites / Add to inquiry basket to compare,https://www.made-in-china.com/products-search/hot-china-products/Machinery.html,2026-09-27,watched-fact,en
+D16,Supplier-site CTAs: Send Inquiry / Chat Now / Visit My Factory / Book a Factory Tour,https://jingwei-rfpa.en.made-in-china.com/,2026-09-27,watched-fact,en
+D17,Card badges: Diamond Member; Gold Member; Audited Supplier; Manufacturer/Factory & Trading Company or Trading Company; province; certs with valid-since dates; rating 5.0/5.0 with On-time Delivery / Fast Dispatch; SGS/DP/LF icons,https://www.made-in-china.com/products-search/hot-china-products/Machinery.html,2026-09-27,watched-fact,en
+D18,English LTR; US$ prices; supplier microsite subdomain pattern xxx.en.made-in-china.com,https://jingwei-rfpa.en.made-in-china.com/,2026-09-27,watched-fact,en
+D19,m.made-in-china.com exists but 303-redirects to www from desktop-UA fetcher,https://m.made-in-china.com/,2026-09-27,observed-not-found,en
+D20,SERP has Product List / Supplier List tabs and breadcrumbs (Manufacturing & Processing Machinery -> Snack Machinery -> Potato Chip Production Line),https://www.made-in-china.com/products-search/hot-china-products/Machinery.html,2026-09-27,watched-fact,en
+D21,Category depth 3 levels observed (top categories -> subgroups -> leaf links e.g. Pumps -> Water/Centrifugal/Vacuum/Pressure Pump),https://www.made-in-china.com/,2026-09-27,watched-fact,en
+D22,Filters: Business Type; R&D Capacity (ODM/OEM/Own Brand); Min Order; Price range; Product Features: Buy Sample; Customized/Non-Customized; attribute filters (Driven Type; Certification ISO9001/CE/RoHS/GMP/FDA/TUV; Application; Material; ...),https://www.made-in-china.com/products-search/hot-china-products/Machinery.html,2026-09-27,watched-fact,en
+D24,Pagination indicator 1/10 on SERP,https://www.made-in-china.com/products-search/hot-china-products/Machinery.html,2026-09-27,watched-fact,en
+D25,Example card: US$12,900.00-26,600.00; 1 Set (MOQ); ZHENGZHOU LYA MACHINERY CO., LTD.; Gold Member; Audited Supplier; Trading Company; Henan China,https://www.made-in-china.com/products-search/hot-china-products/Machinery.html,2026-09-27,watched-fact,en
+D26,PDP not fetched (captcha/missing URL) - observation gap recorded,https://www.made-in-china.com/,2026-09-27,observed-not-found,en
+D27,Microsite tabs: Home/Products/About Us/Solutions/Live Discover/Contact Us; badges Diamond Member (since 2024) + verified business license + Audited Supplier; no audit-report tab on microsite,https://jingwei-rfpa.en.made-in-china.com/,2026-09-27,watched-fact,en
+D27,Supplier trade facts: Incoterms FOB; payment T/T, D/P, PayPal, Western Union, Money Gram; lead time ~1 month; main markets North America/Eastern Europe/Mid East/Western Europe; founded 2015; OEM/ODM,https://jingwei-rfpa.en.made-in-china.com/,2026-09-27,watched-fact,en
+D28,URL patterns observed: /products-search/hot-china-products/<Cat>.html and <company>.en.made-in-china.com; PDP URL pattern not captured,https://www.made-in-china.com/products-search/hot-china-products/Machinery.html,2026-09-27,partial,en
+D30,Guest can browse and see US$ prices without login (text fetch as guest),https://www.made-in-china.com/products-search/hot-china-products/Machinery.html,2026-09-27,watched-fact,en
+D30,My Account / Inquiry Basket presented as account features on Easy Sourcing page,https://sourcing.made-in-china.com/,2026-09-27,watched-fact,en
+D30,Guest limit for Send Inquiry/Start Order not directly observed (login wall not rendered),https://www.made-in-china.com/,2026-09-27,observed-not-found,en
+D31,Seller registration pages unreachable: s.made-in-china.com redirects; member center timeout,https://s.made-in-china.com/,2026-09-27,observed-not-found,en
+D32,Easy Sourcing 4 steps: Buyer Submits Sourcing Request -> MIC Matches Suppliers -> Suppliers Provide Quotations -> Buyer Receives Quotes and Contacts Suppliers; 1 request multiple quotes; quotes comparison and sample request,https://sourcing.made-in-china.com/,2026-09-27,watched-fact,en
+D32,Page stats: ~199,204 sourcing requests and ~1,195,224 quotations for top category (no time frame stated),https://sourcing.made-in-china.com/,2026-09-27,watched-fact-no-timeframe,en
+D40,Audited Supplier reports carry serials: TÜV Rheinland Serial NO. MIC-ASI2631389; SGS Serial NO. MIC20260921008,https://www.made-in-china.com/audited-suppliers/,2026-09-27,watched-fact,en
+D41,Audit report sections: General Information; Foreign Trade Capacity; Product R&D Capacity; Management System & Product Certification; Production Capacity & QC; Financial Position; Working Environment; Photos; Industry Information; Energy Saving & Emission Reduction; report types Initial / Re-audit,https://www.made-in-china.com/audited-suppliers/,2026-09-27,watched-fact,en
+D41,Site-wide supplier data: company type; plant area; employees; years established; ODM/OEM/own brand; export markets; quotation terms FOB/CIF/CFR; payment terms; certifications ISO9001:2015/CE/RoHS/CCC/FCC/UL,https://www.made-in-china.com/audited-suppliers/,2026-09-27,watched-fact,en
+D42,Rating 5.0/5.0 with performance tags; Diamond Member since 2024; certification valid since 2026-02-06,https://www.made-in-china.com/products-search/hot-china-products/Machinery.html,2026-09-27,watched-fact,en
+D44,Secured Trading Service banner with validity window Aug 07 2026 - Dec 31 2030; mechanism not observable,https://www.made-in-china.com/,2026-09-27,partial,en
+D50,Services list on Easy Sourcing: Supplier Discovery; Product Directory; Source from Industry Hubs; Customize Your Products; Supplier Audit Report; Secured Trading Service; Meet Suppliers; Product Alert; Smart Expo; mobile app,https://sourcing.made-in-china.com/,2026-09-27,watched-fact,en
+D56,Lock-in: dedicated microsite + serial-numbered audit report + inquiry basket + product alert + group training (焦点商学) + group commerce brands (inQbrands/Doba),https://www.focuschina.com/,2026-09-27,inference+facts,multi
+D60,Supplier microsite states Incoterms: FOB; audited-suppliers filters show FOB/CIF/CFR quotation terms,https://jingwei-rfpa.en.made-in-china.com/,2026-09-27,watched-fact,en
+D62,Main markets stated per supplier; no Iran country desk observed,https://jingwei-rfpa.en.made-in-china.com/,2026-09-27,observed-not-found,en
