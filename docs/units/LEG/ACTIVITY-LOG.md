@@ -12,3 +12,6 @@
 | 2026-09-27 | MGT | `LEG-003` | ابلاغ اهداف/اعضاییت | issued | inbox/LEG-003.md |
 | 2026-09-27 | حلقه | `LEG-003` | اجرا + NOTIFY | in-qa | outbox/LEG-003.md |
 | 2026-09-27 | QA | `LEG-003` r1 | pass مشروط | ۵ طبقه + ۶ قاعده؛ نیازمند وکیل | reviews/LEG-003-r1.md |
+| 2026-09-27 | MGT | `LEG-004` | ابلاغ حریم/داده/IP | issued | inbox/LEG-004.md |
+| 2026-09-27 | حلقه | `LEG-004` | اجرا + NOTIFY | in-qa | outbox/LEG-004.md |
+| 2026-09-27 | QA | `LEG-004` r1 | pass مشروط | ماتریس داده/IP؛ خط LEG تکمیل | reviews/LEG-004-r1.md |
