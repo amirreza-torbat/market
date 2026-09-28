@@ -10,4 +10,4 @@
 | مجوز کالایی (ماتریس دسته‌های موج اول) | done (موج اول) | `TRD-005` | `reports/accepted/TRD-005.md` | 2026-09-27 |
 | پرونده کشورهای هدف | open (امارات و عراق done) | `TRD-006/007` + صف | `reports/accepted/TRD-006.md` و `TRD-007.md` | 2026-09-27 |
 | ماتریس دسته × مقصد | done | `TRD-013` | `reports/accepted/TRD-013.md` | 2026-09-27 |
-| چک‌لیست ثبت کالا | open | صف | — | — |
+| چک‌لیست ثبت کالا | done | `TRD-014` | `reports/accepted/TRD-014.md` | 2026-09-27 |
