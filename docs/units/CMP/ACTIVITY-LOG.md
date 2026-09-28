@@ -6,3 +6,6 @@
 | 2026-09-27 | MGT | `CMP-001` | ابلاغ سیاست غربالگری | issued | inbox/CMP-001.md |
 | 2026-09-27 | حلقه | `CMP-001` | اجرا + NOTIFY | in-qa | outbox/CMP-001.md |
 | 2026-09-27 | QA | `CMP-001` r1 | pass مشروط | چهار گروه + ۸ پرچم؛ بدون راهکار عبور | reviews/CMP-001-r1.md |
+| 2026-09-27 | MGT | `CMP-002` | ابلاغ تحریم/کنترل صادرات | issued | inbox/CMP-002.md |
+| 2026-09-27 | حلقه | `CMP-002` | اجرا + NOTIFY | in-qa | outbox/CMP-002.md |
+| 2026-09-27 | QA | `CMP-002` r1 | pass مشروط | سه لایه + چهار مسیر؛ خط CMP تکمیل | reviews/CMP-002-r1.md |
