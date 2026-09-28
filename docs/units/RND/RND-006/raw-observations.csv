@@ -1,0 +1,22 @@
+dimension_code,site,observation,evidence_url,accessed_at,confidence,view_language
+D00,TradeKey,Managed by Digital B2B Services (Pvt) Ltd (footer),https://www.tradekey.com/,2026-09-27,direct,en
+D00,TradeKey,Founded 2006; offices Karachi + Riyadh,secondary search results,2026-09-27,secondary,en
+D00,TradeKey,Claims over 11 Million importers/exporters; Trustpilot cites 9152478 members (conflict recorded),https://www.tradekey.com/ + trustpilot.com,2026-09-27,snippet+secondary,en
+D01,TradeKey,Title: Tradekey Global B2b Marketplace - The Biggest Manufacturers & Suppliers Directory,https://www.tradekey.com/,2026-09-27,direct,en
+D01,TradeKey,CTA Post RFQ / Publish RFQ; slogan: Join Now Its Free And Let The Quoting Begin,https://www.tradekey.com/,2026-09-27,direct,en
+D25,TradeKey,Cards show only product name + country + date; no price; no MOQ,https://www.tradekey.com/,2026-09-27,direct,en
+D54,TradeKey,Tiers: VIP / GoldKey Plus / GoldKey / SilverKey + Digital Services + Amazon Services,https://www.tradekey.com/,2026-09-27,direct,en
+D23,TradeKey,Search scope: Products Companies Sell Offer Buyers Brochures,https://www.tradekey.com/,2026-09-27,direct,en
+D02,TradeKey,Country portals: Canada China India USA and more,https://www.tradekey.com/,2026-09-27,direct,en
+D40,TradeKey,Trust labels: Trusted Supplier Sourcing / Premium Suppliers / Success Stories; no methodology doc,https://www.tradekey.com/,2026-09-27,direct,en
+D43,TradeKey,Trustpilot criticism of aggressive sales; PissedConsumer 3.4/5 with non-delivery complaints,https://www.trustpilot.com,2026-09-27,secondary,en
+D30,TradeKey,Guest browsing of leads/products/companies OK; RFQ/contact behind Join Now,https://www.tradekey.com/,2026-09-27,direct+snippet,en
+D00,EC21,Global B2B marketplace since 1997; HQ Seoul,https://www.ec21.com,2026-09-27,official-snippet,en
+D00,EC21,~5 million members (secondary),secondary search results,2026-09-27,secondary,en
+D03,EC21,Free membership (offers/catalog/profile); premium services since 2004; Gold Supplier tier,secondary search results,2026-09-27,secondary,en
+D02,EC21,List counts on pages (313 jersey suppliers),https://importer.ec21.com,2026-09-27,snippet,en
+D00,ExportHub,Global directory with country microsites incl Iran (exporthub.com/iran listed in registry RND-001 opened-listing 2026-08-22),registry + https://www.exporthub.com,2026-09-27,registry+snippet,en
+D03,ExportHub,Tiers Standard/Gold/VIP with guaranteed buyers and orders claim (no public methodology),https://sourceforge.net,2026-09-27,secondary,en
+D40,ExportHub,Claims 10+ million verified buyers and suppliers,https://www.exporthub.com,2026-09-27,snippet,en
+SITE,EC21,Direct fetch timeout x2,https://www.ec21.com/,2026-09-27,observed-block,en
+SITE,ExportHub,Direct fetch 403 for / and /iran/,https://www.exporthub.com/,2026-09-27,observed-block,en

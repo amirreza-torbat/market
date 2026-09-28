@@ -16,6 +16,7 @@
 | 2026-09-27 | حلقه | `RND-003` | اجرا + NOTIFY (توسط مجری نشست 2026-09-27 پس از سه خطای محیطی زیرعامل‌ها) | in-qa | outbox/RND-003.md |
 | 2026-09-27 | حلقه | `RND-004` | اجرا + NOTIFY (سایت 403 بلاک؛ شواهد از سند IR + snippet) | in-qa | outbox/RND-004.md |
 | 2026-09-27 | حلقه | `RND-005` | اجرا + NOTIFY (سایت 403 بلاک؛ شواهد از snippet رسمی + NSE) | in-qa | outbox/RND-005.md |
+| 2026-09-27 | حلقه | `RND-006` | اجرا + NOTIFY (TradeKey مستقیم؛ EC21/ExportHub بلاک/timeout؛ RND-006b جذب شد) | in-qa | outbox/RND-006.md |
 
 ## کارهای انجام‌نشده (صریح)
 

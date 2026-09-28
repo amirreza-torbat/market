@@ -4,9 +4,9 @@ G02,Made-in-China.com,https://www.made-in-china.com/,Nanjing CN,horizontal-regio
 G03,Global Sources,https://www.globalsources.com/,HK,horizontal-regional-asia,buyer+supplier,Marketplace plus trade shows for Asian manufacturers,dossier-RND-004-2026-09-27,2026-09-27T00:00Z,opened-fetch-blocked-403
 G04,IndiaMART,https://www.indiamart.com/,Noida IN,horizontal-regional-india,buyer+supplier,Largest India B2B portal for manufacturers and SMEs,dossier-RND-005-2026-09-27,2026-09-27T00:00Z,opened-fetch-blocked-403
 G05,TradeIndia,https://www.tradeindia.com/,IN,horizontal-regional-india,buyer+supplier,Indian industrial and manufacturing directory/marketplace,globpulse-india-2026,2026-08-22T12:00Z,secondary
-G06,TradeKey,https://www.tradekey.com/,Riyadh SA,horizontal-global,buyer+supplier,Global RFQ and supplier matching marketplace,amzscout-tradekey-2026,2026-08-22T12:00Z,secondary
-G07,ExportHub,https://www.exporthub.com/,US,horizontal-global,buyer+supplier,Global sourcing directory with country microsites including Iran,exporthub-iran-page,2026-08-22T12:00Z,opened-listing
-G08,EC21,https://www.ec21.com/,Seoul KR,horizontal-global,buyer+supplier,Korea-origin global B2B marketplace since 1997,amzscout-ec21-2026,2026-08-22T12:00Z,secondary
+G06,TradeKey,https://www.tradekey.com/,Riyadh SA,horizontal-global,buyer+supplier,Global RFQ and supplier matching marketplace,dossier-RND-006-2026-09-27,2026-09-27T00:00Z,opened
+G07,ExportHub,https://www.exporthub.com/,US,horizontal-global,buyer+supplier,Global sourcing directory with country microsites including Iran,dossier-RND-006-2026-09-27,2026-09-27T00:00Z,opened-fetch-blocked-403
+G08,EC21,https://www.ec21.com/,Seoul KR,horizontal-global,buyer+supplier,Korea-origin global B2B marketplace since 1997,dossier-RND-006-2026-09-27,2026-09-27T00:00Z,opened-fetch-timeout
 G09,1688,https://www.1688.com/,Hangzhou CN,horizontal-domestic-cn,buyer+supplier,Alibaba Group domestic China wholesale; mostly non-export,salehoo-alt-list-2026,2026-08-22T12:00Z,secondary
 G10,Amazon Business,https://www.amazon.com/business,US,procurement-horizontal,buyer-org,Enterprise procurement marketplace not factory-export first,clickpost-b2b-2026,2026-08-22T12:00Z,secondary
 G11,ThomasNet,https://www.thomasnet.com/,US,directory-industrial,buyer-industrial,North America industrial supplier directory,salehoo-alt-list-2026,2026-08-22T12:00Z,secondary

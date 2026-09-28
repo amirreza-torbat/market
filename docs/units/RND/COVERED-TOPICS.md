@@ -11,6 +11,7 @@
 | کالبدشکافی Made-in-China.com (با حفره PDP) | done | `RND-003` | `reports/accepted/RND-003.md` | 2026-09-27 |
 | کالبدشکافی Global Sources (محدودیت 403 مستند) | done | `RND-004` | `reports/accepted/RND-004.md` | 2026-09-27 |
 | کالبدشکافی IndiaMART (محدودیت 403 مستند) | done | `RND-005` | `reports/accepted/RND-005.md` | 2026-09-27 |
+| کالبدشکافی TradeKey/EC21/ExportHub (مقایسه‌ای؛ RND-006b جذب) | done | `RND-006` | `reports/accepted/RND-006.md` | 2026-09-27 |
 | کالبدشکافی سایر جهانی‌ها | open | صف | — | — |
 | کالبدشکافی پلتفرم‌های ایرانی | open | صف | — | — |
 | ماتریس بین‌سایتی | open | صف | — | — |
