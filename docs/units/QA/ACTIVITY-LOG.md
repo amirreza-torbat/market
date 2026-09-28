@@ -17,3 +17,4 @@
 | 2026-09-27 | داوری | `RND-004` r1 | pass مشروط | محدودیت 403 مستند؛ تفکیک نشان‌ها تایید؛ self-check-pending-second-reviewer |
 | 2026-09-27 | داوری | `RND-005` r1 | pass مشروط | محدودیت 403 مستند؛ قیمت/سهمیه رسمی تایید؛ self-check-pending-second-reviewer |
 | 2026-09-27 | داوری | `RND-006` r1 | pass مشروط | تفکیک confidence کامل؛ تعارض عدد عضو ثبت شد؛ self-check-pending-second-reviewer |
+| 2026-09-27 | داوری | `TRD-007` r1 | pass مشروط | گیت پرداخت انطباقی تایید؛ آمار سرنخ برچسب خورده؛ self-check-pending-second-reviewer |

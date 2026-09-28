@@ -3,7 +3,7 @@
 | واحد | تسک | وضعیت |
 |---|---|---|
 | RND | `RND-007a/b` (پلتفرم‌های ایرانی؛ خردشده) | issued (بریف در inbox؛ در انتظار مجری) |
-| TRADE | `TRD-007` (عراق) | issued (بریف در inbox؛ در انتظار مجری) |
-| QA | `QA-001` | ایستاده — ۱۰ رأی جدید در 2026-09-27 ثبت شد |
+| TRADE | `TRD-008` (ترکیه) | issued (بریف در inbox؛ در انتظار مجری) |
+| QA | `QA-001` | ایستاده — ۱۱ رأی جدید در 2026-09-27 ثبت شد |
 
-تاریخچه پذیرش: `TRD-003..006` و `RND-003..006` در 2026-09-27 `qa-pass` شدند و نسخه accepted گرفتند (RND-006b جذب RND-006 شد). همه رأی‌های 2026-09-27 `self-check-pending-second-reviewer` هستند. مرجع صف: [`../../research/task-registry.csv`](../../research/task-registry.csv). فقط `MGT` وضعیت را تغییر می‌دهد.
+تاریخچه پذیرش: `TRD-003..007` و `RND-003..006` در 2026-09-27 `qa-pass` شدند و نسخه accepted گرفتند (RND-006b جذب RND-006 شد). همه رأی‌های 2026-09-27 `self-check-pending-second-reviewer` هستند. مرجع صف: [`../../research/task-registry.csv`](../../research/task-registry.csv). فقط `MGT` وضعیت را تغییر می‌دهد.

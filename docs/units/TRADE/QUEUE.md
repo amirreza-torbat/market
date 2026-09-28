@@ -8,8 +8,8 @@
 | 4 | `TRD-004` | CUS | اسناد پایه گمرک ایران و رویه اظهار | qa-pass | `TRD-002` |
 | 5 | `TRD-005` | CUS+LAW | مجوزهای وابسته به نوع کالا | qa-pass | `TRD-004` |
 | 6 | `TRD-006` | CTY | پرونده کشور هدف: امارات | qa-pass | `TRD-004` |
-| 7 | `TRD-007` | CTY | پرونده کشور هدف: عراق | issued | `TRD-006` |
-| 8 | `TRD-008` | CTY | ترکیه | queued | `TRD-007` |
+| 7 | `TRD-007` | CTY | پرونده کشور هدف: عراق | qa-pass | `TRD-006` |
+| 8 | `TRD-008` | CTY | ترکیه | issued | `TRD-007` |
 | 9 | `TRD-009` | CTY | عمان | queued | `TRD-008` |
 | 10 | `TRD-010` | CTY | روسیه | queued | `TRD-009` |
 | 11 | `TRD-011` | CTY | هند | queued | `TRD-010` |
