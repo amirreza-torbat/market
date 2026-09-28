@@ -25,3 +25,4 @@
 | 2026-09-27 | داوری | `TRD-008` r1 | pass مشروط | A.TR مسیر EU ثبت شد؛ گیت بانکی تایید؛ self-check-pending-second-reviewer |
 | 2026-09-27 | داوری | `TRD-009` r1 | pass مشروط | Bayan رسمی لنگر شد؛ تمایز با عراق/ترکیه ثبت؛ self-check-pending-second-reviewer |
 | 2026-09-27 | داوری | `TRD-010` r1 | pass مشروط | FTA/EAC/کریدور ثبت؛ گیت پرداخت صرفاً ملاحظه محیطی؛ self-check-pending-second-reviewer |
+| 2026-09-27 | داوری | `TRD-011` r1 | pass مشروط | ICEGATE/BIS ثبت؛ تفکیک چابهار تایید؛ self-check-pending-second-reviewer |
