@@ -39,3 +39,4 @@
 | 2026-09-27 | بستن صف | MGT | RND+TRADE | هر دو صف تحقیق کامل شد؛ تصمیم‌های فاز بعد (SELL/BUY و LEG/FIN/CMP) در ISSUED ثبت شد |
 | 2026-09-27 | پذیرش | FIN | `FIN-001` | qa-pass مشروط؛ accepted + کارت |
 | 2026-09-27 | پذیرش | CMP | `CMP-001` | qa-pass مشروط؛ accepted + کارت |
+| 2026-09-27 | پذیرش | LEG | `LEG-002` | qa-pass مشروط؛ accepted + کارت |

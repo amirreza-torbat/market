@@ -32,3 +32,4 @@
 | 2026-09-27 | داوری | `LEG-001` r1 | pass مشروط | بدون حکم قطعی حقوقی؛ self-check-pending-second-reviewer |
 | 2026-09-27 | داوری | `FIN-001` r1 | pass مشروط | ماتریس کامل؛ بدون توصیه کانال غیرقانونی؛ self-check-pending-second-reviewer |
 | 2026-09-27 | داوری | `CMP-001` r1 | pass مشروط | سیاست چهارگروهی؛ FATF لنگر؛ self-check-pending-second-reviewer |
+| 2026-09-27 | داوری | `LEG-002` r1 | pass مشروط | قالب‌ها نیازمند وکیل؛ self-check-pending-second-reviewer |

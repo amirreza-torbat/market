@@ -6,3 +6,6 @@
 | 2026-09-27 | MGT | `LEG-001` | ابلاغ نقش حقوقی پلتفرم | issued | inbox/LEG-001.md |
 | 2026-09-27 | حلقه | `LEG-001` | اجرا + NOTIFY | in-qa | outbox/LEG-001.md |
 | 2026-09-27 | QA | `LEG-001` r1 | pass مشروط | بدون حکم قطعی؛ قفل متن رسمی ثبت شد | reviews/LEG-001-r1.md |
+| 2026-09-27 | MGT | `LEG-002` | ابلاغ بسته قرارداد | issued | inbox/LEG-002.md |
+| 2026-09-27 | حلقه | `LEG-002` | اجرا + NOTIFY | in-qa | outbox/LEG-002.md |
+| 2026-09-27 | QA | `LEG-002` r1 | pass مشروط | چهار قالب + چهار بند؛ همه نیازمند وکیل | reviews/LEG-002-r1.md |
