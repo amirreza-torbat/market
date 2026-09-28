@@ -10,8 +10,8 @@
 | 6 | `TRD-006` | CTY | پرونده کشور هدف: امارات | qa-pass | `TRD-004` |
 | 7 | `TRD-007` | CTY | پرونده کشور هدف: عراق | qa-pass | `TRD-006` |
 | 8 | `TRD-008` | CTY | ترکیه | qa-pass | `TRD-007` |
-| 9 | `TRD-009` | CTY | عمان | issued | `TRD-008` |
-| 10 | `TRD-010` | CTY | روسیه | queued | `TRD-009` |
+| 9 | `TRD-009` | CTY | عمان | qa-pass | `TRD-008` |
+| 10 | `TRD-010` | CTY | روسیه | issued | `TRD-009` |
 | 11 | `TRD-011` | CTY | هند | queued | `TRD-010` |
 | 12 | `TRD-012` | CTY | چین | queued | `TRD-011` |
 | 13 | `TRD-013` | CUS | ماتریس دسته × مقصد × سند | queued | `TRD-005` + حداقل ۳ پرونده کشور |

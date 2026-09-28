@@ -23,3 +23,4 @@
 | 2026-09-27 | داوری | `RND-008` r1 | pass مشروط | سنتز با ارجاع سلولی؛ استلزام جدا از واقعیت؛ self-check-pending-second-reviewer |
 | 2026-09-27 | داوری | `RND-009` r1 | pass مشروط | کاتالوگ ۱۵+۱۰ آیتم + ۷ بسته نهایی؛ خط RND تکمیل شد |
 | 2026-09-27 | داوری | `TRD-008` r1 | pass مشروط | A.TR مسیر EU ثبت شد؛ گیت بانکی تایید؛ self-check-pending-second-reviewer |
+| 2026-09-27 | داوری | `TRD-009` r1 | pass مشروط | Bayan رسمی لنگر شد؛ تمایز با عراق/ترکیه ثبت؛ self-check-pending-second-reviewer |
