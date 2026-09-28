@@ -1,0 +1,10 @@
+axis,alibaba,made-in-china,global-sources,indiamart,tradekey,ec21,exporthub,iran-desks,iranian-platforms,source_task,evidence_weight
+core_model,transactional-marketplace,directory+audit,directory+tradeshow,domestic-directory+lead-gen,pure-RFQ,directory+leads,directory+country-microsites,country-directory,shop+mediation / productized-RFQ,RND-002..007b,mixed
+payment_center,trade-assurance-yes,secured-trading-unclear,not-observed,payment-protection-5L-non-delivery-only,not-observed,not-observed,guaranteed-orders-claim-undocumented,none,none,RND-002..007b,mixed
+revenue_model,membership+commission,membership+audit+ads,membership+booth,public-tier-subscription+buyleads,quote-based-tiers,free+gold-supplier,standard-gold-vip,desk-membership,marketing-services / service-fees,RND-002..007b,mixed
+public_pricing,not-observed,not-observed,no,yes-INR-silver-to-diamond,no,no,no,no,fees-page-exists-amount-unread,RND-005/007b,verified
+trust_layer,gold+TA,serial-numbered-third-party-audit,verified-manufacturer-split-method-unseen,trustseal-document-based+pro,premium-no-method+negative-reviews,gold-supplier-2004,verified-claim-no-doc,none,verified-claim-no-doc,RND-002..007b,mixed
+languages,multi,multi-subdomain,en+spanish-observed,en+city-dir,en+country-portals,en,en,none-observed,en-ar-ru(+fa),RND-002..007b,mixed
+guest_path,browse+prices-ok-contact-unseen,browse+prices-ok-contact-unseen,browse+prices-indexed-rfq-needs-account,browse+prices-ok-two-contact-paths,browse-ok-rfq-behind-join,browse-ok,browse-ok,browse-ok,browse-ok-rfq-form-unsubmitted,RND-002..007b,mixed
+conformity_gate,NONE,NONE,NONE,NONE,NONE,NONE,NONE,NONE,NONE,RND-002..007b,verified-across-all
+payment_risk_recorded,-,-,-,indian-rails-note,non-delivery-complaints-secondary,-,guarantee-claim-risk,IBR-iran-list-tracking-lead,paypal-stripe-footer-iran-risk,RND-005/006/007a/007b,labeled
