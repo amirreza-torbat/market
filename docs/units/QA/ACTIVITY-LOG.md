@@ -30,3 +30,4 @@
 | 2026-09-27 | داوری | `TRD-013` r1 | pass مشروط | سنتز ارجاع‌سلولی تایید؛ گیت ستون جدا؛ self-check-pending-second-reviewer |
 | 2026-09-27 | داوری | `TRD-014` r1 | pass مشروط | ۴ گروه فیلد با منبع؛ صف TRADE تکمیل شد |
 | 2026-09-27 | داوری | `LEG-001` r1 | pass مشروط | بدون حکم قطعی حقوقی؛ self-check-pending-second-reviewer |
+| 2026-09-27 | داوری | `FIN-001` r1 | pass مشروط | ماتریس کامل؛ بدون توصیه کانال غیرقانونی؛ self-check-pending-second-reviewer |
