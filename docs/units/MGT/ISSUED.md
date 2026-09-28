@@ -4,7 +4,7 @@
 |---|---|---|
 | LEG | `LEG-002` (قراردادها) | issued (بریف در inbox) |
 | FIN | `FIN-001` (ماتریس پرداخت) | issued (بریف در inbox) |
-| CMP | `CMP-001` (غربالگری KYB/KYC) | issued (بریف در inbox) |
+| CMP | `CMP-002` (تحریم/کنترل صادرات) | issued (CMP-001 qa-pass) |
 | — | — | صف تحقیق (RND-001..009 و TRD-001..014) کامل شد؛ LEG-001 qa-pass |
 
 ## تصمیم‌های باز MGT (فاز بعد)
