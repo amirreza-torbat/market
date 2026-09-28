@@ -22,3 +22,5 @@
 | 2026-09-27 | ابلاغ | TRADE | `TRD-007` | پرونده عراق — پس از qa-pass TRD-006 |
 | 2026-09-27 | پذیرش | RND | `RND-003` | qa-pass مشروط (داور دوم pending)؛ accepted + کارت QA-PASS؛ رجیستری G02 به opened ارتقا یافت |
 | 2026-09-27 | ابلاغ | RND | `RND-004` | کالبدشکافی Global Sources — بریف در inbox |
+| 2026-09-27 | پذیرش | RND | `RND-004` | qa-pass مشروط؛ accepted + کارت QA-PASS؛ رجیستری G03 ارتقا |
+| 2026-09-27 | ابلاغ | RND | `RND-005` | کالبدشکافی IndiaMART — بریف در inbox |

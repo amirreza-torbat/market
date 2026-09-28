@@ -1,0 +1,24 @@
+dimension_code,observation,evidence_url,accessed_at,confidence,view_language
+D00,Global Sources Ltd taken private by Blackstone-affiliated funds via amalgamation; NASDAQ GSOL delisting completed 2017-08-28,http://media.corporate-ir.net/media_files/IROL/12/121487/Closing-Press-Release-of-28-Aug-2017.pdf,2026-09-27,primary-doc,en
+D00,Founded 1971 by Merle A. Hinrichs; HQ Hong Kong; trade magazines -> online B2B -> trade shows; China Sourcing Fairs at AsiaWorld-Expo from 2006,https://www.wsj.com (via search),2026-09-27,secondary-corroborated,en
+D01,Official snippet: Global Sources Hong Kong Exhibitions & B2B Sourcing,https://www.globalsources.com/,2026-09-27,live-snippet,en
+D01,Official RFQ phrase: Tell suppliers what you need and get quotations sent to you instead! Try RFQ Now,https://www.globalsources.com/,2026-09-27,live-snippet,en
+D02,List titles with counts: 26839 wholesale Fans Control products from 415 suppliers,https://www.globalsources.com/,2026-09-27,live-snippet,en
+D03,Footer: Join as a Free Supplier / Booth Application / Sell Your Products,https://www.globalsources.com/,2026-09-27,live-snippet,en
+D03,No public pricing for supplier plans; quote-based sales,search results 2026-09-27,2026-09-27,observed-not-found,en
+D18,Language subdomain observed: spanish.globalsources.com,https://spanish.globalsources.com,2026-09-27,live-snippet,es
+D25,Tiered pricing on cards: US$ 3.36; US$ 23.70-25.70; US$ 0.95-3.39/Pedazo; MOQ 2000 / 100 pieces,https://spanish.globalsources.com,2026-09-27,live-snippet,es
+D30,Listing pages and prices are public and indexable (basis of all snippets),https://www.globalsources.com/,2026-09-27,inference-from-indexability,en
+D30,RFQ requires buyer registration,https://ldzy.tw,2026-09-27,secondary-lead,en
+D31,Join as a Free Supplier = free entry tier exists (footer),https://www.globalsources.com/,2026-09-27,live-snippet,en
+D32,Reverse RFQ model confirmed by official phrase,https://www.globalsources.com/,2026-09-27,live-snippet,en
+D32,Buyer toolkit: workbench; market analytics; auto-translation 18+ languages,search results 2026-09-27,2026-09-27,secondary-lead,en
+D40,Badges: Verified Manufacturer / Verified Supplier / Premier Supplier with tenure (2 years; 3 years),https://www.globalsources.com/,2026-09-27,live-snippet,en
+D40,Typo observed in badge: Verified Maufacturer,https://www.globalsources.com/,2026-09-27,live-snippet,en
+D41,Verified Manufacturer described as on-site audit most rigorous among major platforms; independent inspection firm,https://www.epicsourcing.co.uk,2026-09-27,secondary-lead,en
+D42,Supplier metadata: 20+ years export experience; 2200 customers in 140 countries; business type (Exporter/Manufacturer/Trading Company/Online Seller); employee count,https://www.globalsources.com/,2026-09-27,live-snippet,en
+D50,October 2026 HK shows: 11-14 & 18-21 October at AsiaWorld-Expo; Phase1 Consumer Electronics+Gaming; Phase2 Mobile Electronics+Smart Home/Security/Appliances; 8 sectors; spring edition April,https://www.globalsources.com/hong-kong-show/about (snippet) + prnewswire + 10times,2026-09-27,primary-snippet+secondary,en
+D51,No escrow/trade-assurance equivalent observed in evidence,search results 2026-09-27,2026-09-27,observed-not-found,en
+D54,Tiers: Free Supplier -> Premier Supplier (quote-based) -> Verified layer (audit),https://www.globalsources.com/,2026-09-27,live-snippet+inference,en
+D55,2026 focus: AI-Integrated Consumer Mobile and Lifestyle Electronics sourcing,https://www.globalsources.com/hong-kong-show/about (snippet),2026-09-27,live-snippet,en
+SITE,Direct fetch blocked: www and m subdomains return HTTP 403; /trade-shows/ timeout; /verified-manufacturers/ 403,https://www.globalsources.com/,2026-09-27,observed-block,en

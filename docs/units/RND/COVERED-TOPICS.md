@@ -9,6 +9,7 @@
 | رجیستری هویت پلتفرم‌های جهان و ایران | done | `RND-001` | `reports/accepted/RND-001.md` | 2026-08-22 |
 | کالبدشکافی Alibaba.com | done | `RND-002` | `reports/accepted/RND-002.md` | 2026-08-22 |
 | کالبدشکافی Made-in-China.com (با حفره PDP) | done | `RND-003` | `reports/accepted/RND-003.md` | 2026-09-27 |
+| کالبدشکافی Global Sources (محدودیت 403 مستند) | done | `RND-004` | `reports/accepted/RND-004.md` | 2026-09-27 |
 | کالبدشکافی سایر جهانی‌ها | open | صف | — | — |
 | کالبدشکافی پلتفرم‌های ایرانی | open | صف | — | — |
 | ماتریس بین‌سایتی | open | صف | — | — |

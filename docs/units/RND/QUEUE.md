@@ -9,8 +9,8 @@
 | 1 | `RND-001` | رجیستری هویت: همه پلتفرم‌های مشابه جهان و ایران | qa-pass | — |
 | 2 | `RND-002` | کالبدشکافی کامل Alibaba.com با روبریک D00–D73 | qa-pass | qa-pass `RND-001` |
 | 3 | `RND-003` | کالبدشکافی Made-in-China.com | qa-pass | `RND-002` |
-| 4 | `RND-004` | کالبدشکافی Global Sources | issued | `RND-003` |
-| 5 | `RND-005` | کالبدشکافی IndiaMART | queued | `RND-004` |
+| 4 | `RND-004` | کالبدشکافی Global Sources | qa-pass | `RND-003` |
+| 5 | `RND-005` | کالبدشکافی IndiaMART | issued | `RND-004` |
 | 6 | `RND-006` | کالبدشکافی TradeKey | queued | `RND-005` |
 | 7 | `RND-006b` | کالبدشکافی ExportHub | queued | `RND-006` |
 | 8 | `RND-007` | کالبدشکافی پلتفرم‌های ایرانی — MGT بعد از `RND-001` به تسک‌های جدا خرد می‌کند | queued | `RND-001` و ترجیحاً بعد از حداقل یک جهانی |

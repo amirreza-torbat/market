@@ -1,7 +1,7 @@
 id,name,url,hq,type,audience,one_liner,identity_source,observed_at,observe_status
 G01,Alibaba.com,https://www.alibaba.com/,Hangzhou CN,horizontal-global,buyer+supplier,Largest open B2B marketplace for wholesale sourcing,homepage-title-2026-08-22,2026-08-22T12:00Z,opened
 G02,Made-in-China.com,https://www.made-in-china.com/,Nanjing CN,horizontal-regional-asia,buyer+supplier,China industrial B2B marketplace with audited-supplier program,dossier-RND-003-2026-09-27,2026-09-27T00:00Z,opened
-G03,Global Sources,https://www.globalsources.com/,HK,horizontal-regional-asia,buyer+supplier,Marketplace plus trade shows for Asian manufacturers,salehoo-alt-list-2026,2026-08-22T12:00Z,secondary
+G03,Global Sources,https://www.globalsources.com/,HK,horizontal-regional-asia,buyer+supplier,Marketplace plus trade shows for Asian manufacturers,dossier-RND-004-2026-09-27,2026-09-27T00:00Z,opened-fetch-blocked-403
 G04,IndiaMART,https://www.indiamart.com/,Noida IN,horizontal-regional-india,buyer+supplier,Largest India B2B portal for manufacturers and SMEs,globpulse-india-2026,2026-08-22T12:00Z,secondary
 G05,TradeIndia,https://www.tradeindia.com/,IN,horizontal-regional-india,buyer+supplier,Indian industrial and manufacturing directory/marketplace,globpulse-india-2026,2026-08-22T12:00Z,secondary
 G06,TradeKey,https://www.tradekey.com/,Riyadh SA,horizontal-global,buyer+supplier,Global RFQ and supplier matching marketplace,amzscout-tradekey-2026,2026-08-22T12:00Z,secondary
