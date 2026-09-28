@@ -9,3 +9,6 @@
 | 2026-09-27 | MGT | `FIN-002` | ابلاغ ماشین وضعیت پول | issued | inbox/FIN-002.md |
 | 2026-09-27 | حلقه | `FIN-002` | اجرا + NOTIFY | in-qa | outbox/FIN-002.md |
 | 2026-09-27 | QA | `FIN-002` r1 | pass مشروط | ۱۰ حالت + ۵ شرط؛ نگهداری وجوه فقط با شخصیت مجاز | reviews/FIN-002-r1.md |
+| 2026-09-27 | MGT | `FIN-003` | ابلاغ کارمزد/FX/تطبیق | issued | inbox/FIN-003.md |
+| 2026-09-27 | حلقه | `FIN-003` | اجرا + NOTIFY | in-qa | outbox/FIN-003.md |
+| 2026-09-27 | QA | `FIN-003` r1 | pass مشروط | ۵ بخش + ۶ رویداد؛ خط FIN تکمیل | reviews/FIN-003-r1.md |
