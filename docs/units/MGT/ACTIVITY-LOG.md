@@ -24,3 +24,5 @@
 | 2026-09-27 | ابلاغ | RND | `RND-004` | کالبدشکافی Global Sources — بریف در inbox |
 | 2026-09-27 | پذیرش | RND | `RND-004` | qa-pass مشروط؛ accepted + کارت QA-PASS؛ رجیستری G03 ارتقا |
 | 2026-09-27 | ابلاغ | RND | `RND-005` | کالبدشکافی IndiaMART — بریف در inbox |
+| 2026-09-27 | پذیرش | RND | `RND-005` | qa-pass مشروط؛ accepted + کارت QA-PASS؛ رجیستری G04 ارتقا |
+| 2026-09-27 | ابلاغ | RND | `RND-006` | کالبدشکافی TradeKey(+EC21/ExportHub) — بریف در inbox |

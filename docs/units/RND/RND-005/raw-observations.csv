@@ -1,0 +1,20 @@
+dimension_code,observation,evidence_url,accessed_at,confidence,view_language
+D00,IndiaMART InterMESH Ltd founded 1996 by Dinesh Chandra Agarwal (MD&CEO) and Brijesh Kumar Agrawal; HQ Noida; listed NSE+BSE; IPO 2019,nsearchives.nseindia.com + Annual Report 2019-20,2026-09-27,primary-adjacent,en
+D01,Official buttons: Post Buy Requirement / Join as Supplier / Explore Products / Get Verified,https://dir.indiamart.com,2026-09-27,live-snippet,en
+D01,Product CTA: Get Best Price,https://dir.indiamart.com,2026-09-27,live-snippet,en
+D03,Public tier pricing: Silver ~Rs1.10-1.15L/yr; Gold ~Rs2.70L/yr; Platinum ~Rs5.00L/yr; Diamond ~Rs6.50L/yr; varies by category/city; negotiable,https://corporate.indiamart.com/indiamart-verified-exporter/ + refrens.com,2026-09-27,primary-snippet+secondary,en
+D03,Buyleads quotas (Verified Exporter official): Silver ~10/wk; Gold ~25/wk; Platinum ~50/wk,https://corporate.indiamart.com/indiamart-verified-exporter/,2026-09-27,primary-snippet,en
+D18,Functional subdomains observed: m. dir. help. corporate. indiamart.com,https://m.indiamart.com,2026-09-27,live-snippet,en
+D30,Prices in Rs public and indexable,https://dir.indiamart.com,2026-09-27,inference-from-indexability,en
+D30,Login wall for Get Best Price / Post Buy Requirement not directly observed,https://www.indiamart.com/,2026-09-27,observed-not-found,en
+D31,Join as Supplier + Get Verified official entry buttons,https://dir.indiamart.com,2026-09-27,live-snippet,en
+D32,Post Buy Requirement = reverse RFQ official flow,https://dir.indiamart.com,2026-09-27,live-snippet,en
+D40,TrustSEAL = paid document verification; TrustSEAL Pro (help 2026-06-17): proof of identity (shop signboard/Udyam/registration cert) + proof of products (live stock or last 3 months invoices),https://help.indiamart.com,2026-09-27,primary-snippet,en
+D41,TrustSEAL checks legal identity documents (ROC/Udyam/GST/PAN); not product quality,https://help.indiamart.com,2026-09-27,primary-snippet,en
+D44,Payment Protection: refund up to Rs 5,00,000 capped for non-delivery from TrustSEAL-verified suppliers; payment must go to supplier verified bank account (NEFT/RTGS/IMPS),https://m.indiamart.com,2026-09-27,primary-snippet,en
+D50,Buyleads quotas; TrustSEAL/Pro; Payment Protection; city-centric directory; Verified Exporter program,https://corporate.indiamart.com/,2026-09-27,primary-snippet,en
+D54,Tiers Silver/Gold/Platinum/Diamond public + Verified/TrustSEAL layer independent of tier,https://corporate.indiamart.com/ + refrens.com,2026-09-27,primary-snippet+secondary,en
+D55,Strong SEO directory pattern: X Manufacturers in Y city pages,https://dir.indiamart.com,2026-09-27,live-snippet,en
+D56,Churn secondary lead: Silver ~2-2.5%/month; Gold/Platinum <1%,investor discussions via search,2026-09-27,secondary-lead,en
+D60,Verified Exporter = separate export layer on domestic-first platform,https://corporate.indiamart.com/indiamart-verified-exporter/,2026-09-27,primary-snippet,en
+SITE,Direct fetch blocked: www.indiamart.com and /corporate-profile.html return HTTP 403,https://www.indiamart.com/,2026-09-27,observed-block,en
