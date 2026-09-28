@@ -38,3 +38,4 @@
 | 2026-09-27 | داوری | `FIN-002` r1 | pass مشروط | ماشین وضعیت متصل به حمل؛ self-check-pending-second-reviewer |
 | 2026-09-27 | داوری | `FIN-003` r1 | pass مشروط | ledger events وصل به ENG/DATA؛ self-check-pending-second-reviewer |
 | 2026-09-27 | داوری | `LEG-004` r1 | pass مشروط | حداقل‌سازی داده پردازش؛ GDPR فقط سرنخ؛ self-check-pending-second-reviewer |
+| 2026-09-27 | داوری | `SYN-001` r1 | pass مشروط | سنتز فقط از qa-passها؛ self-check-pending-second-reviewer |
