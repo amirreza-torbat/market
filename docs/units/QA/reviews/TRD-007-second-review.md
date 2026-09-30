@@ -1,0 +1,10 @@
+# داوری دوم — TRD-007 (رأی مورد داوری: r1)
+
+- داور دوم: «زیرعامل مستقل — نشست 2026-09-27 (مستقل از مؤلف و داور قبلی)»
+- تاریخ: 2026-09-27
+- رأی قبلی: pass مشروط (self-check-pending-second-reviewer)
+- **حکم داوری دوم: pass با ملاحظه**
+- راستی‌آزمایی زنده: ادعای کلیدی T00/T08 — COSQC/ICIGI و نشان کیفیت عراق از 2024-07-01 — جست‌وجوی وب مستقل (دو تلاش): تأیید شد که ICIGI برنامه انطباق وارداتی عراق زیر نهاد استاندارد COSQC است و مراجع اعلام‌شده بازرسی همان Intertek/SGS/TÜV Rheinland/TÜV SÜD/Bureau Veritas هستند (TÜV SÜD: https://www.tuv.com/landingpage/en/government-inspections-international-trade/navigation/pvoc/exporting-to-the-middle-east/iraq-icigi/؛ راهنمای CAP: https://santiq.com/articles/compliance-guides/iraq-product-conformity-assessment-cap-program-overview/)؛ نشان کیفیت عراق (IQM) صادره COSQC از 1 ژوئیه 2024 به کالاهای برقی تعمیم یافت (اطلاعیه عمومی COSQC — Tamimi & Partners: https://www.tamimi.com/law_update_articles/iraq-quality-mark-new-export-requirement/؛ Comply Market: https://complymarket.com/en/services/iraq-verification-of-conformity). مشاهده مستقیم cosqc.gov.iq انجام نشد (طبق خودِ گزارش قفل به T14).
+- پیوستگی: بازاستفاده از TRD-002 (خط پایه/ممنوع)، TRD-004 (EPL/مغایرت اسناد)، TRD-005 (مجوز مبدأ) و TRD-003 (مدل حمل) بدون بازنویسی — سازگار؛ گیت پرداخت T10 (compliance_hold، ممنوعیت صریح توصیه کانال موازی/صرافی) هم‌سو با الگوی محافظه‌کارانه TRD-006 است.
+- ملاحظات/نقص جدید (مهم اما غیرماهوی): راستی‌آزمایی زنده نشان داد برنامه نشان کیفیت عراق بعدها از «الزامی» به «اختیاری» تغییر وضعیت داده است (Bureau Veritas/Verigates: https://verigates.bureauveritas.com/news/voc-iraq-iraqi-quality-mark-scheme-optional-application). گزارش در T08 آن را الزامی («باید») ثبت کرده — صادق برای تاریخ 2024-07-01، اما تغییر بعدی باید در بازبینی بعدِ T08 و نرم‌شدن قانون کسب‌وکار «فیلد نشان اجباری» منعکس شود تا پلتفرم بی‌مورد مسدود نکند؛ این تغییر زیر محرک T14 («تغییر ... گستره نشان کیفیت عراق») می‌گنجد. ملاحظه جزئی دیگر r1 (پیوست آمار بدون لینک مستقیم هر ردیف، برچسب `سرنخ-آمار`) به‌قوت خود باقی است و به تسک آمار رسمی قفل شده — ماهوی نیست؛ overturn نمی‌شود.
+- نتیجه: برچسب pending-second-reviewer مرتفع می‌شود (SECOND-REVIEW-LOG)

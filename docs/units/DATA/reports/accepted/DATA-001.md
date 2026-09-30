@@ -1,7 +1,7 @@
 # DATA-001 — تاکسونومی رویداد و دیکشنری KPI
 
 - واحد: `DATA` | تسک: `DATA-001` | تاریخ: 2026-09-27
-- وضعیت گزارش: review (آماده QA)
+- وضعیت گزارش: done (پذیرش MGT 2026-09-27 — رأی QA + داوری دوم: reviews/SYN-001-second-review.md)
 - معیار پذیرش رجیستری: «event taxonomy + KPI dictionary — Funnels SLA trust and financial events defined»
 - ورودی (accepted): FIN-003 (LedgerEvent ۶گانه)، ENG-001 (ماژول‌ها)، TRD-003 (حالت‌ها)، RND-008 (بنچمارک)، CS-001 (SLA)
 
