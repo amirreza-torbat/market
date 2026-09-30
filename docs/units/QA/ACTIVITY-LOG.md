@@ -42,3 +42,5 @@
 | 2026-09-27 | داوری | `INS-001` r1 | pass مشروط | self-check-pending-second-reviewer |
 | 2026-09-27 | داوری | `LOG-001` r1 | pass مشروط | self-check-pending-second-reviewer |
 | 2026-09-27 | داوری | `CAT-001` r1 | pass مشروط | self-check-pending-second-reviewer |
+| 2026-09-27 | داوری | `RND-SELL-001` r1 | pass مشروط | self-check-pending-second-reviewer |
+| 2026-09-27 | داوری | `RND-BUY-001` r1 | pass مشروط | self-check-pending-second-reviewer |

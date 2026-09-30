@@ -27,3 +27,9 @@
 - فهرست ایران/جهان هنوز رجیستری accepted نیست
 
 اگر ایجنتی خلاف این ادعا کرد، دروغ است.
+| 2026-09-27 | MGT | `RND-SELL-001` | ابلاغ | issued | — |
+| 2026-09-27 | حلقه | `RND-SELL-001` | اجرا + NOTIFY | in-qa | outbox/RND-SELL-001.md |
+| 2026-09-27 | QA | `RND-SELL-001` r1 | pass مشروط | همه مراحل + failure paths | reviews/RND-SELL-001-r1.md |
+| 2026-09-27 | MGT | `RND-BUY-001` | ابلاغ | issued | — |
+| 2026-09-27 | حلقه | `RND-BUY-001` | اجرا + NOTIFY | in-qa | outbox/RND-BUY-001.md |
+| 2026-09-27 | QA | `RND-BUY-001` r1 | pass مشروط | همه مراحل + failure paths | reviews/RND-BUY-001-r1.md |
