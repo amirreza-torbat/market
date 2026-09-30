@@ -56,3 +56,5 @@
 | 2026-09-27 | داوری | `DATA-001` r1 | pass مشروط | self-check-pending-second-reviewer |
 | 2026-09-27 | داوری | `SEC-001` r1 | pass مشروط | self-check-pending-second-reviewer |
 | 2026-09-27 | داوری | `GOV-001` r1 | pass مشروط | self-check-pending-second-reviewer |
+| 2026-09-27 | داوری | `UX-001` r1 | pass مشروط | self-check-pending-second-reviewer |
+| 2026-09-27 | داوری | `DES-001` r1 | pass مشروط | self-check-pending-second-reviewer |
