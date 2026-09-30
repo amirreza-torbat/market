@@ -2,4 +2,4 @@
 
 - رأی: docs/units/QA/reviews/INS-001-r1.md
 - خط INS تکمیل شد (INS-001 qa-pass)
-- تبصره: رأی self-check-pending-second-reviewer است
+- تبصره: رأی second-reviewer-confirmed (SECOND-REVIEW-LOG) است

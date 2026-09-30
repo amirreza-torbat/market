@@ -3,4 +3,4 @@
 - رأی: docs/units/QA/reviews/CMP-001-r1.md
 - COVERED: سیاست غربالگری چهارگروهی (خریدار/تأمین‌کننده/بانک/حمل) + ۸ پرچم قرمز FATF/داخلی + حالت‌های pass/hold/reject/escalate
 - تسک بعد آزاد است: بله — CMP-002 (تحریم/کنترل صادرات)
-- تبصره: رأی self-check-pending-second-reviewer است
+- تبصره: رأی second-reviewer-confirmed (SECOND-REVIEW-LOG) است

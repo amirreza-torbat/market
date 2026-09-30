@@ -3,4 +3,4 @@
 - رأی: docs/units/QA/reviews/RND-008-r1.md
 - COVERED: ماتریس بین‌سایتی ۹ پلتفرم — گیت انطباق به‌عنوان خلأ سراسری بازار؛ سه الگوی درآمد؛ الگوهای اعتماد سنددار در برابر بی‌سند؛ دو نمونه حفاظت پرداخت
 - تسک بعد آزاد است: بله — RND-009 (ابلاغ شد)
-- تبصره: رأی self-check-pending-second-reviewer است
+- تبصره: رأی second-reviewer-confirmed (SECOND-REVIEW-LOG) است

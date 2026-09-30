@@ -2,4 +2,4 @@
 
 - رأی: docs/units/QA/reviews/SEO-001-r1-r1.md
 - خط SEO تکمیل شد
-- تبصره: رأی self-check-pending-second-reviewer است
+- تبصره: رأی second-reviewer-confirmed (SECOND-REVIEW-LOG) است

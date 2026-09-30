@@ -2,4 +2,4 @@
 
 - رأی: docs/units/QA/reviews/CS-001-r1.md
 - خط CS تکمیل شد (CS-001 qa-pass)
-- تبصره: رأی self-check-pending-second-reviewer است
+- تبصره: رأی second-reviewer-confirmed (SECOND-REVIEW-LOG) است
