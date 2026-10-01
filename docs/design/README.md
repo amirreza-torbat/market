@@ -13,11 +13,11 @@
 | DSN-002 | نقشه سایت و معماری اطلاعات (همه صفحات از قبل) | [SITEMAP.md](SITEMAP.md) | ✅ qa-pass |
 | DSN-003 | نقشه تجمیع شواهد → صفحات | [EVIDENCE-MAP.md](EVIDENCE-MAP.md) | ✅ qa-pass |
 | DSN-004 | معماری صفحات عمومی (P01–P17) | [pages/PUBLIC-PAGES.md](pages/PUBLIC-PAGES.md) | ✅ qa-pass |
-| DSN-005 | معماری صفحات احراز + پنل خریدار (A01–B09) | pages/PANEL-BUYER.md | ⏳ باز |
-| DSN-006 | معماری پنل فروشنده (S01–S09) | pages/PANEL-SUPPLIER.md | ⏳ باز |
-| DSN-007 | معماری کنسول عملیات (O01–O07) | pages/OPS-CONSOLES.md | ⏳ باز |
-| DSN-008 | صفحات سیستم + فلوهای بین‌صفحه‌ای | pages/SYSTEM-FLOWS.md | ⏳ باز |
-| DSN-009 | ماتریس حالت‌ها/خطاها/گیت‌ها در سطح UI | pages/STATE-MATRIX.md | ⏳ باز |
+| DSN-005 | معماری صفحات احراز + پنل خریدار (A01–B09) | [pages/PANEL-BUYER.md](pages/PANEL-BUYER.md) | ✅ qa-pass |
+| DSN-006 | معماری پنل فروشنده (S01–S09) | [pages/PANEL-SUPPLIER.md](pages/PANEL-SUPPLIER.md) | ✅ qa-pass |
+| DSN-007 | معماری کنسول عملیات (O01–O07) | [pages/OPS-CONSOLES.md](pages/OPS-CONSOLES.md) | ✅ qa-pass |
+| DSN-008 | صفحات سیستم + فلوهای بین‌صفحه‌ای | [pages/SYSTEM-FLOWS.md](pages/SYSTEM-FLOWS.md) | ✅ qa-pass |
+| DSN-009 | ماتریس حالت‌ها/خطاها/گیت‌ها در سطح UI | [pages/STATE-MATRIX.md](pages/STATE-MATRIX.md) | ✅ qa-pass |
 | DSN-010 | داوری دوم اسناد طراحی | (QA پروتکل) | ⏳ در انتظار |
 
 ## قواعد فاز
