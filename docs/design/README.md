@@ -18,7 +18,7 @@
 | DSN-007 | معماری کنسول عملیات (O01–O07) | [pages/OPS-CONSOLES.md](pages/OPS-CONSOLES.md) | ✅ qa-pass |
 | DSN-008 | صفحات سیستم + فلوهای بین‌صفحه‌ای | [pages/SYSTEM-FLOWS.md](pages/SYSTEM-FLOWS.md) | ✅ qa-pass |
 | DSN-009 | ماتریس حالت‌ها/خطاها/گیت‌ها در سطح UI | [pages/STATE-MATRIX.md](pages/STATE-MATRIX.md) | ✅ qa-pass |
-| DSN-010 | داوری دوم اسناد طراحی | (QA پروتکل) | ⏳ در انتظار |
+| DSN-010 | داوری دوم اسناد طراحی | [DESIGN-SECOND-REVIEW.md](DESIGN-SECOND-REVIEW.md) | ✅ pass با ملاحظه (۴ اصلاح اعمال شد) |
 
 ## قواعد فاز
 
