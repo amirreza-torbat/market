@@ -59,3 +59,4 @@
 | 2026-09-27 | داوری | `UX-001` r1 | pass مشروط | self-check-pending-second-reviewer |
 | 2026-09-27 | داوری | `DES-001` r1 | pass مشروط | self-check-pending-second-reviewer |
 | 2026-09-27 | داوری دوم | QA | ALL | ۵۳ داوری دوم مستقل (۱۰ زیرعامل) — صفر overturn؛ SECOND-REVIEW-LOG + ۵۳ فایل second-review |
+| 2026-09-27 | QA | اصلاحات داوری دوم | ۲۱ مورد روی acceptedها اعمال شد | done | SECOND-REVIEW-LOG §۲ |

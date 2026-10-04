@@ -51,3 +51,7 @@ FIN-003، ENG-001، TRD-003، RND-SELL/BUY-001، CS-001، TNS-001، RND-003 — 
 
 - به: MGT، PM، ENG
 - خودآزمایی: Funnels/SLA/trust/financial چهارگانه ✓؛ رویدادها از FIN-003/ENG-001 ✓؛ مسیر طبق ابلاغ ✓
+
+## اصلاحات داوری دوم (2026-09-27 — SECOND-REVIEW-LOG)
+
+- برچسب بنچمارک «۲ ساعت تا اولین پاسخ» اصلاح شد: مبدأ Made-in-China Easy Sourcing (RND-003 D32 — نقل‌قول مشتری) نه IndiaMART؛ FX_RATE_APPLIED به نمونه رویدادها اضافه شد.
