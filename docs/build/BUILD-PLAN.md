@@ -69,3 +69,5 @@
 ## وابستگی‌های بیرونی (موازی از هفته ۱)
 
 شریک نگهدارنده وجوه/escrow (LEG-001/002 — وکیل)؛ بازرس ثالث (INSP)؛ بیمه‌گر (INS)؛ مشاور مالیاتی؛ سند رسمی‌های C2
+
+> **کد اجرایی:** ریپوی کد جدا است → [amirreza-torbat/bazaar-platform](https://github.com/amirreza-torbat/bazaar-platform) (private). M0 تحویل شد (23b4ee0): اسکلت Next.js + اسکیمای PIM-001 + احراز + i18n/RTL + audit. جزئیات در حافظه/README ریپوی کد.
