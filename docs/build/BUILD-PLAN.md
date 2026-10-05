@@ -71,3 +71,8 @@
 شریک نگهدارنده وجوه/escrow (LEG-001/002 — وکیل)؛ بازرس ثالث (INSP)؛ بیمه‌گر (INS)؛ مشاور مالیاتی؛ سند رسمی‌های C2
 
 > **کد اجرایی:** ریپوی کد جدا است → [amirreza-torbat/bazaar-platform](https://github.com/amirreza-torbat/bazaar-platform) (private). M0 تحویل شد (23b4ee0): اسکلت Next.js + اسکیمای PIM-001 + احراز + i18n/RTL + audit. جزئیات در حافظه/README ریپوی کد.
+
+## ابزار ممیزی (Arena Audit v3.2)
+
+- نصب شد در `Desktop/arena-audit` + skill `/arena-audit` در ZCode؛ ممیزی M0 ریپوی کد: **۱۰۰/۱۰۰، صفر یافته** (commit 541b55b — شواهد در `arena-audit-out/`).
+- تورنمنت LLM چندایجنتی موازی نیازمند `ANTHROPIC_API_KEY`/`OPENAI_API_KEY` است (هسته deterministic بدون کلید کار می‌کند)؛ پس از دریافت کلید از صاحب‌کار فعال می‌شود.
